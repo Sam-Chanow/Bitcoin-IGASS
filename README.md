@@ -1,2 +1,2 @@
 # Bitcoin-IGASS
-Bitcoin Investment Growth Analysis through Sentiment Scoring
+Bitcoin Investment Growth Analysis through Similarity Scoring
