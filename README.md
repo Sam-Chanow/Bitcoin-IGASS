@@ -14,3 +14,8 @@
   * **Readme.md** - Readme file
   * **data.py** - Provide and manipulate the compiled datasets
   * **model.py** - The model used for price prediction
+## Compiled Datasets
+
+## Model
+
+## Outcome
