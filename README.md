@@ -2,5 +2,15 @@
 ## Bitcoin Investment Growth Analysis through Similarity Scoring
 
 ## File Structure
-*Main
-  *Main 2
+* **Bitcoin-IGASS/** - Main project directory
+  * **data/** - Contains project datasets and data compilers
+    * **raw-datasets** - The raw collected data from reddit and Bitcoin's price index
+      * **backup** - Backup zipped data
+      * **bitcoin-posts** - r/Bitcoin posts data
+      * **bitcoin-price** - Bitcoin price data
+      * **cryptocurrency-posts** - r/Cryptocurrency posts data
+    * **postDownloader.py** - Manipulates the pushshift.io to retrieve reddit post data
+  * **Predict.py** - Main python file to predict next days Bitcoin price data
+  * **Readme.md** - Readme file
+  * **data.py** - Provide and manipulate the compiled datasets
+  * **model.py** - The model used for price prediction
