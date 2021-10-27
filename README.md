@@ -4,6 +4,7 @@
 ## File Structure
 * **Bitcoin-IGASS/** - Main project directory
   * **data/** - Contains project datasets and data compilers
+    * **compiled-datasets** - Labeled and ready to use datasets 
     * **raw-datasets** - The raw collected data from reddit and Bitcoin's price index
       * **backup** - Backup zipped data
       * **bitcoin-posts** - r/Bitcoin posts data
@@ -13,6 +14,7 @@
   * **Predict.py** - Main python file to predict next days Bitcoin price data
   * **Readme.md** - Readme file
   * **data.py** - Provide and manipulate the compiled datasets
+    * When run on its own, it can search by date through the whole r-cryptocurrency-posts dataset and return the posts from that date
   * **model.py** - The model used for price prediction
 ## Compiled Datasets
 
