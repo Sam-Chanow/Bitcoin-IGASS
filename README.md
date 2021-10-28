@@ -15,6 +15,7 @@
   * **Readme.md** - Readme file
   * **data.py** - Provide and manipulate the compiled datasets
     * When run on its own, it can search by date through the whole r-cryptocurrency-posts dataset and return the posts from that date
+    * It can also search price data from a specific day
   * **model.py** - The model used for price prediction
 ## Compiled Datasets
 
