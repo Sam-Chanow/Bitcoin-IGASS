@@ -1,0 +1,4 @@
+In order to use this program there must be an unzipped model file from the following link present in this directory.
+https://github.com/hanxiao/bert-as-service
+
+As a base we used uncased_L-24_H-1024_A-16
