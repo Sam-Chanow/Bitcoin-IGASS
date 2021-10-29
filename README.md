@@ -5,7 +5,7 @@
 * **Bitcoin-IGASS/** - Main project directory
   * **data/** - Contains project datasets and data compilers
     * **compiled-datasets** - Labeled and ready to use datasets 
-      * **labeled-price-day** - Labeled price, to post dataset 
+      * **BPRI** - Labeled price, to post dataset 
       * **backup** -Backup zipped data
     * **raw-datasets** - The raw collected data from reddit and Bitcoin's price index
       * **backup** - Backup zipped data
