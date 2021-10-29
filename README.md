@@ -21,7 +21,7 @@
     * When used with -Compile, creates a dataset for the compiled-datasets folder
   * **model.py** - The model used for price prediction
 ## Compiled Datasets
-### Labeled-Price-Day (LPD) Dataset
+### Bitcoin Price by Reddit Indicators (BPRI) Dataset
 **Purpose:**
 This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/Bitcoin to the price change in Bitcoin the following day
 
