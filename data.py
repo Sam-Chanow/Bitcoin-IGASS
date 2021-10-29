@@ -78,6 +78,7 @@ if __name__ == "__main__":  # Simple main function, acts as a searching tool for
                 # Get a list of dates in-between the start and end date
                 dates = pandas.date_range(pandas.to_datetime(begin_date), pandas.to_datetime(end_date)-timedelta(days=1), freq='d')
                 # print(dates)
+                prev_posts = "" # since it is the posts in relation to the price change the next day
                 for date in dates:
                     print(date)
                     date = str(date)[:10]
@@ -87,15 +88,18 @@ if __name__ == "__main__":  # Simple main function, acts as a searching tool for
                     fileN = -1
                     while crypto_l == []:
                         fileN += 1
+                        if fileN > 2: break
                         crypto_l = read_posts_from_day('data/raw-datasets/cryptocurrency-posts/r-cryptocurrency-posts0' + str(fileN) + '.txt', date)
 
                     # Now we clean and aggregate the data
                     posts = bitcoin_l + crypto_l
                     posts = [clean_post_data(post) for post in posts]
                     posts = group_posts_from_day(posts)
-                    labeled_data = label_data(posts, price_change)
+                    labeled_data = label_data(prev_posts, price_change)
+                    prev_posts = posts
                     # Using a unique separator here to make parsing easier as the text is plain text
-                    fp.write(labeled_data[0] + ' //POSTDATACOMPILED// ' + labeled_data[1] + '\n')
+                    if not labeled_data[1] == "":
+                        fp.write(labeled_data[0] + ' //POSTDATACOMPILED// ' + labeled_data[1] + '\n')
                 fp.close()
                 exit(0)
             except FileNotFoundError:
