@@ -25,9 +25,9 @@
 **Purpose:**
 This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/Bitcoin to the price change in Bitcoin the following day
 
-**Format:** [DATE] //POSTDATACOMPILED// [POST-DATA]
+**Format:** [CHANGE] //POSTDATACOMPILED// [POST-DATA]
 
-**Specifics:** [DATE] is the date after the posts [POST-DATA] were posted in YYYY-MM-DD format. [POST-DATA] is a string that contains all of the post bodies from the given day concatenated and seperated by ' '. The dataset contains data from 2018-10-26 -> 2021-07-06
+**Specifics:** [CHANGE] is the price change of Bitcoin (UP or DOWN) the day after the posts [POST-DATA] were posted in YYYY-MM-DD format. [POST-DATA] is a string that contains all of the post bodies from the given day concatenated and seperated by ' '. The dataset contains data from 2018-10-26 -> 2021-07-06
 ## Model
 
 ## Outcome
