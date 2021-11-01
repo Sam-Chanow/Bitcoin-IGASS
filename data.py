@@ -48,8 +48,9 @@ def clean_post_data(post):  # post is a string of text
     return post
 
 
-def group_posts_from_day(l_posts):  # Returns a string that is the concatenation of all the posts from one day
-    return ' '.join(l_posts)  # join all the posts
+def group_posts_from_day(l_posts):  # Returns ls
+    # a string that is the concatenation of all the posts from one day
+    return ' /ENDPOST/ '.join(l_posts)  # join all the posts
 
 
 def label_data(agg_post, price_change):  # label the aggregate post data with the price change from its day
