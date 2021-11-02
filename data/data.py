@@ -80,8 +80,8 @@ if __name__ == "__main__":  # Simple main function, acts as a searching tool for
                 for date in dates:
                     print(date)
                     date = str(date)[:10]
-                    price_change = float(read_price_change_from_day('data/raw-datasets/bitcoin-price/coin_Bitcoin.csv', date))
-                    bitcoin_l = read_posts_from_day('data/raw-datasets/bitcoin-posts/r-bitcoin-posts.txt', date)
+                    price_change = float(read_price_change_from_day('raw-datasets/bitcoin-price/coin_Bitcoin.csv', date))
+                    bitcoin_l = read_posts_from_day('raw-datasets/bitcoin-posts/r-bitcoin-posts.txt', date)
                     crypto_l = []
                     fileN = -1
                     while crypto_l == []:
@@ -117,7 +117,7 @@ if __name__ == "__main__":  # Simple main function, acts as a searching tool for
                     results = read_posts_from_day('data/raw-datasets/cryptocurrency-posts/r-cryptocurrency-posts0' + str(fileN) + '.txt', query)
                     results = [clean_post_data(post) for post in results]
                 elif sys.argv[1] == '-price':
-                    results = [str(read_price_change_from_day('data/raw-datasets/bitcoin-price/coin_Bitcoin.csv', query))]
+                    results = [str(read_price_change_from_day('raw-datasets/bitcoin-price/coin_Bitcoin.csv', query))]
                 else:
                     print("The option -" + sys.argv[1] + " is not valid, only -post and -price can be queried.")
                     exit(0)

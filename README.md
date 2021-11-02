@@ -15,14 +15,14 @@
       * **bitcoin-posts** - r/Bitcoin posts data
       * **bitcoin-price** - Bitcoin price data
       * **cryptocurrency-posts** - r/Cryptocurrency posts data
+    * **data.py** - Provide and manipulate the compiled datasets
+      * When run on its own, it can search by date through the whole r-cryptocurrency-posts dataset and return the posts from that date
+      * It can also search price data from a specific day
+      * When used with -Compile, creates a dataset for the compiled-datasets folder
     * **postDownloader.py** - Manipulates the pushshift.io to retrieve reddit post data
   * **model/** -Contains model folder and model information
   * **Predict.py** - Main python file to predict next days Bitcoin price data
   * **Readme.md** - Readme file
-  * **data.py** - Provide and manipulate the compiled datasets
-    * When run on its own, it can search by date through the whole r-cryptocurrency-posts dataset and return the posts from that date
-    * It can also search price data from a specific day
-    * When used with -Compile, creates a dataset for the compiled-datasets folder
   * **dataset.py** - Iterable object that will read and parse all data from BPRI formatted files
   * **model.py** - The model used for price prediction
 * **
