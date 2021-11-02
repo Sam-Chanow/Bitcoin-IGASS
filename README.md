@@ -8,6 +8,7 @@
     * **compiled-datasets** - Labeled and ready to use datasets 
       * **BPRI** - Labeled price, to post dataset 
       * **BPRI-POSTSPLIT** -Modified BPRI dataset where posts are split by '/ENDPOST'
+      * **BVBPRI** - Bert Vectorized compilation of the BPRI dataset
       * **backup** -Backup zipped data
     * **raw-datasets** - The raw collected data from reddit and Bitcoin's price index
       * **backup** - Backup zipped data
@@ -40,6 +41,13 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 **Format:** [CHANGE] //POSTDATACOMPILED// [POST-DATA] /ENDPOST/ [POST-DATA] ...
 
 **Specifics:** Everything in this dataset is the same as above, however the individual posts are separated by the /ENDPOST/ tag. [CHANGE] is the price change of Bitcoin (UP or DOWN) the day after the posts [POST-DATA] were posted in YYYY-MM-DD format. [POST-DATA] is a string that contains all of the post bodies from the given day concatenated and seperated by ' '. The dataset contains data from 2018-10-26 -> 2021-07-06.
+
+### Bert-Vectorized Bitcoin Price by Reddit Indicators (BVBPRI) Dataset
+**Purpose:** IN PROGRESS
+
+**Format:** IN PROGRESS
+
+**Specifics:** IN PROGRESS
 * **
 ## Model
 ### Vectorization

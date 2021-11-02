@@ -61,9 +61,6 @@ def get_labeled_data_from_day(day):  # the public facing function that other fil
     # This will access the compiled dataset not the raw dataset
     pass
 
-def get_compiled_dataset(filename):
-    pass
-
 
 if __name__ == "__main__":  # Simple main function, acts as a searching tool for r-cryptocurrency-posts
     # print(read_posts_from_day('data/raw-datasets/bitcoin-posts/r-bitcoin-posts.txt', '2021-10-24'))
