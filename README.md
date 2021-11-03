@@ -1,12 +1,8 @@
-<div style="text-align: center; color: rgb(255, 100, 1); background-image: url('style/btcimage.jpg'); ">
-  <h1 style="font-size: 50px;">Bitcoin-IGASS</h1>
-</div>
-
+# Bitcoin-IGASS
 * **
-<h2 style="text-align: center; color: rgb(255, 100, 1); font-size: 15px; "> Bitcoin Investment Growth Analysis through Similarity Scoring </h2>
-
+## Bitcoin Investment Growth Analysis through Similarity Scoring
 * **
-<h2 style="text-align: center; color: rgb(255, 100, 1); font-size: 20px; ">File Structure</h2>
+## File Structure
 * **Bitcoin-IGASS/** - Main project directory
   * **data/** - Contains project datasets and data compilers
     * **compiled-datasets** - Labeled and ready to use datasets 
@@ -30,7 +26,7 @@
   * **dataset.py** - Iterable object that will read and parse all data from BPRI formatted files
   * **model.py** - The model used for price prediction
 * **
-<h2 style="text-align: center; color: rgb(255, 100, 1); font-size: 20px; ">Compiled Datasets</h2>
+## Compiled Datasets
 ### Bitcoin Price by Reddit Indicators (BPRI) Dataset
 **Purpose:**
 This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/Bitcoin to the price change in Bitcoin the following day.
@@ -53,7 +49,7 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 
 **Specifics:** IN PROGRESS
 * **
-<h2 style="text-align: center; color: rgb(255, 100, 1); font-size: 20px; ">Model</h2>
+## Model
 ### Vectorization
 **Bert-as-Service:** We are using the Bert model provided at https://github.com/hanxiao/bert-as-service to vectorize our post data. We encode a list of posts from a single day and <average/add them> (haven't decided which yet). We are using the Bert model uncased_L-24_H-1024_A-16, for more information read model/MODEL_INFO.txt.
 
@@ -65,5 +61,5 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 * **Logistic Regression**: Most likely we will average or add all of those vectors and run it through a Logistic regression Model
 * **
 
-<h2 style="text-align: center; color: rgb(255, 100, 1); font-size: 20px; ">Outcome</h2>
+## Outcome
 
