@@ -62,3 +62,8 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 * **
 
 ## Outcome
+
+<div align="center">
+    <img src="style/readme.svg" width="400" height="400" alt="css-in-readme">
+</div>
+
