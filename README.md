@@ -51,11 +51,8 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 * **
 ## Model
 ### Vectorization
-**Bert-as-Service:** We are using the Bert model provided at https://github.com/hanxiao/bert-as-service to vectorize our post data. We encode a list of posts from a single day and <average/add them> (haven't decided which yet). We are using the Bert model uncased_L-24_H-1024_A-16, for more information read model/MODEL_INFO.txt.
-
+* **BERT**: Return list of vectors representing the posts from that day
 ### Learning Model
-**BERT**: Return list of vectors representing the posts from that day
-
 **Classifier**
 * **RNN**: Possibly run this list of vectors through the RNN and train an RNN, maybe positional relationships will help the classifier.
 * **Logistic Regression**: Most likely we will average or add all of those vectors and run it through a Logistic regression Model

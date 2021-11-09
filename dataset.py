@@ -33,7 +33,7 @@ def parseBPRI(posts):  # Given a string of posts in BPRI format, return s a list
     return bpri
 
 
-def parseBERT(data):  # Given a string that is a Bert Vectorized data with a label
+def parseBVBPRI(data):  # Given a string that is a Bert Vectorized data with a label
     pass
 
 # D = Dataset(['data/compiled-datasets/BPRI-POSTSPLIT/BPRI00.bpri', 'data/compiled-datasets/BPRI-POSTSPLIT/BPRI01.bpri'], parseBPRI)
