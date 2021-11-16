@@ -1,0 +1,2 @@
+This is the directory where the BVBPRI dataset should be unpacked. There should be 966 files named BVBPRI___.pt where ___ is a number.
+These files cannot be uploaded to git because they are too large.
