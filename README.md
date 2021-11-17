@@ -20,6 +20,7 @@
       * It can also search price data from a specific day
       * When used with -Compile, creates a dataset for the compiled-datasets folder
     * **postDownloader.py** - Manipulates the pushshift.io to retrieve reddit post data
+  * **Images** - Contains graphs and images for the README
   * **model/** -Contains model folder and model information
   * **Predict.py** - Main python file to predict next days Bitcoin price data
   * **Readme.md** - Readme file
@@ -59,4 +60,10 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 * **
 
 ## Outcome
+
+**BVBPRI Dataset Size**:
+
+![Graph of BVBPRI datset size per day to day](images/datafrequency.png)
+
+* The post frequency in the last 100 days is hundreds of times higher than in the first 2/3 of the dataset.
 
