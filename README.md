@@ -67,3 +67,6 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 
 * The post frequency in the last 100 days is hundreds of times higher than in the first 2/3 of the dataset.
 
+![Graph of BVBPRI PostFrequency to Price Increase](images/dualGraphUpDOWN.png)
+* The graph above shows that there is no direct correlation between post frequency and price change
+
