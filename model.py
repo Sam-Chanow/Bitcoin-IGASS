@@ -7,6 +7,9 @@ from transformers import BertTokenizer, BertModel, BertConfig
 from time import sleep
 from tqdm import tqdm
 import sys
+import torch.nn as nn
+import torch.nn.functional as F
+import torch.optim as optim
 
 
 # This function will use BERT to vectorize a datset and return a new Dataset
@@ -41,23 +44,10 @@ def build_vector_data(raw_data, start_tok=0):  # raw_data is a dataset object, a
         #if f_n > 1: break;
 
 
-# This function will clean a string of data
-def clean(sentence):
+def average_tensors(data):
+    # Takes in a list of tensors, data
+    #average them all together and return a single tensor
     pass
-
-
-class Model:
-    def __init__(self):
-        pass
-
-    def train(self, train_d):
-        pass
-
-    def test(self, test_d):
-        pass
-
-    def evaluate(self, data_unlabeled):
-        pass
 
 
 if __name__ == "__main__":
