@@ -2,6 +2,12 @@
 * **
 ## Bitcoin Investment Growth Analysis through Similarity Scoring
 * **
+## Table of Contents
+* **[File Structure](https://github.com/Sam-Chanow/Bitcoin-IGASS#file-structure)**
+* **[Datasets](https://github.com/Sam-Chanow/Bitcoin-IGASS#datasets)**
+* **[Model](https://github.com/Sam-Chanow/Bitcoin-IGASS#model)**
+* **[Outcome](https://github.com/Sam-Chanow/Bitcoin-IGASS#outcome)**
+* **
 ## File Structure
 * **Bitcoin-IGASS/** - Main project directory
   * **data/** - Contains project datasets and data compilers
@@ -30,7 +36,7 @@
   * **dataset.py** - Iterable object that will read and parse all data from BPRI formatted files
   * **model.py** - The model used for price prediction. Can be run standalone to vectorize text data with Bert using the command ```python3 model.py - vector N```, where N is the number of iterations to skip before vectorizing.
 * **
-## Compiled Datasets
+## Datasets
 ### Bitcoin Price by Reddit Indicators (BPRI) Dataset
 **Purpose:**
 This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/Bitcoin to the price change in Bitcoin the following day.
