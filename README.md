@@ -116,5 +116,3 @@ TODO: Write about how to create daily test data
 
 ## Copyright and License
 Copyright 2021 Samuel Chanow, Ryan Metz. Code released under [this LICENSE](LICENSE).
-
-https://github.com/Sam-Chanow/Bitcoin-IGASS/blob/07325cafae258e97aa9a9300e33300a2ba6ee911/LICENSE#L1-L4
