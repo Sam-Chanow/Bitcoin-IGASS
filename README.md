@@ -30,7 +30,8 @@
       * When used with ```-compile```, creates a dataset for the compiled-datasets folder
     * **postDownloader.py** - Manipulates the pushshift.io to retrieve reddit post data
   * **Images** - Contains graphs and images for the README
-  * **model/** -Contains model folder and model information
+  * **model/** -Contains model information
+    * **Net.py** - Torch model information 
   * **Predict.py** - Main python file to predict next days Bitcoin price data
     * **Usage:**
       * ```python3 predict.py -train```
