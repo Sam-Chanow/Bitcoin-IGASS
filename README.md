@@ -16,16 +16,19 @@
       * **bitcoin-price** - Bitcoin price data
       * **cryptocurrency-posts** - r/Cryptocurrency posts data
     * **data.py** - Provide and manipulate the compiled datasets
-      * When run on its own, it can search by date through the whole r-cryptocurrency-posts dataset and return the posts from that date
-      * It can also search price data from a specific day
-      * When used with -Compile, creates a dataset for the compiled-datasets folder
+      * When run with option ```-post```, it can search by date through the whole r-cryptocurrency-posts dataset and return the posts from that date
+      * When run with ```-price```, it can search by date and return price labels from a specified date
+      * When used with ```-compile```, creates a dataset for the compiled-datasets folder
     * **postDownloader.py** - Manipulates the pushshift.io to retrieve reddit post data
   * **Images** - Contains graphs and images for the README
   * **model/** -Contains model folder and model information
   * **Predict.py** - Main python file to predict next days Bitcoin price data
+    * **Usage:**
+      * ```python3 predict.py -train```
+      * ```python3 predict.py -predict FILE```, where FILE is the path to the file with the data in it.
   * **Readme.md** - Readme file
   * **dataset.py** - Iterable object that will read and parse all data from BPRI formatted files
-  * **model.py** - The model used for price prediction. Can be run standalone to vectorize text data with Bert using the command python3 model.py - vector N, where N is the number of iterations to skip before vectorizing.
+  * **model.py** - The model used for price prediction. Can be run standalone to vectorize text data with Bert using the command ```python3 model.py - vector N```, where N is the number of iterations to skip before vectorizing.
 * **
 ## Compiled Datasets
 ### Bitcoin Price by Reddit Indicators (BPRI) Dataset
@@ -48,7 +51,7 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 
 **Format:** The dataset is a collection of files named BVBPRI___.pt where ___is a number from 0 to 966. Each file contains a label, UP or DOWN and a list of tensors representing every post from that day.
 
-**Specifics:** The data from each file can be loaded with L = torch.load(BVBPRI___.pt), and the data retrieved will be a 2d list where L[0] is the label, either UP or DOWN, and L[1] is a list of tensors.
+**Specifics:** The data from each file can be loaded with ```L = torch.load(BVBPRI___.pt)```, and the data retrieved will be a 2d list where ```L[0]``` is the label, either UP or DOWN, and ```L[1]``` is a list of tensors.
 * **
 ## Model
 ### Expected Data
@@ -61,12 +64,15 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 
 ## Outcome
 
-**BVBPRI Dataset Size**:
+**BVBPRI Dataset Size:**
 
 ![Graph of BVBPRI datset size per day to day](images/datafrequency.png)
 
 * The post frequency in the last 100 days is hundreds of times higher than in the first 2/3 of the dataset.
 
+**Post-Frequency / Price Correlation:**
+
 ![Graph of BVBPRI PostFrequency to Price Increase](images/dualGraphUpDOWN.png)
+
 * The graph above shows that there is no direct correlation between post frequency and price change
 
