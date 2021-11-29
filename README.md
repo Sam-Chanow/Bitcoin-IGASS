@@ -8,6 +8,7 @@
 * **[File Structure](https://github.com/Sam-Chanow/Bitcoin-IGASS#file-structure)**
 * **[Datasets](https://github.com/Sam-Chanow/Bitcoin-IGASS#datasets)**
 * **[Model](https://github.com/Sam-Chanow/Bitcoin-IGASS#model)**
+* **[Usage](https://github.com/Sam-Chanow/Bitcoin-IGASS#usage)**
 * **[Outcome](https://github.com/Sam-Chanow/Bitcoin-IGASS#outcome)**
 * **[License](https://github.com/Sam-Chanow/Bitcoin-IGASS#copyright-and-license)**
 * **
@@ -70,9 +71,26 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 **Classifier**
 * **RNN**: Possibly run this list of vectors through the RNN and train an RNN, maybe positional relationships will help the classifier.
 * **Logistic Regression**: Most likely we will average or add all of those vectors and run it through a Logistic regression Model
+
+**Parameters**:
+* TODO
+
+**Output**:
+* TODO
+
+
 * **
 
 ## Usage
+
+**Building the Dataset:**
+* **Step 1** Download the data
+  * ```python3 postDownloader.py``` (Make changes as necessary to source code to change download location/specific subreddit)
+* **Step 2** Compile the text dataset
+  * ```python3 data.py -compile``` (When prompted enter information about the data requested. The folder location it will draw from is hardcode however so this can only change via an edit of the source code. Might be updated in the future)
+* **Step 3** Compile the vectorized dataset
+  * ```python3 model.py -vector 0``` (The number at the end can be changed if you want to stop/resume later. The location of the dataset to vectorize can be changed in the source code.)
+
 
 TODO: Write about training the model with the given datasets
 
