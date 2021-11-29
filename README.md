@@ -72,6 +72,16 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 * **Logistic Regression**: Most likely we will average or add all of those vectors and run it through a Logistic regression Model
 * **
 
+## Usage
+
+TODO: Write about training the model with the given datasets
+
+TODO: Write about creating your own dataset for training
+
+TODO: Write about how to create daily test data
+
+* **
+
 ## Outcome
 
 **BVBPRI Dataset Size:**
