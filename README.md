@@ -59,7 +59,7 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 
 **Format:** The dataset is a collection of files named BVBPRI___.pt where ___is a number from 0 to 966. Each file contains a label, UP or DOWN and a list of tensors representing every post from that day.
 
-**Specifics:** The data from each file can be loaded with ```L = torch.load(BVBPRI___.pt)```, and the data retrieved will be a 2d list where ```L[0]``` is the label, either UP or DOWN, and ```L[1]``` is a list of tensors.
+**Specifics:** The data from each file can be loaded with ```L = torch.load('BVBPRI___.pt')```, and the data retrieved will be a 2d list where ```L[0]``` is the label, either UP or DOWN, and ```L[1]``` is a list of tensors.
 * **
 ## Model
 ### Expected Data
