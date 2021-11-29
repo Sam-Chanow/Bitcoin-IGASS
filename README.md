@@ -53,7 +53,7 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 
 **Format:** [CHANGE] //POSTDATACOMPILED// [POST-DATA] /ENDPOST/ [POST-DATA] ...
 
-**Specifics:** Everything in this dataset is the same as above, however the individual posts are separated by the /ENDPOST/ tag. [CHANGE] is the price change of Bitcoin (UP or DOWN) the day after the posts [POST-DATA] were posted in YYYY-MM-DD format. [POST-DATA] is a string that contains all of the post bodies from the given day concatenated and seperated by ' '. The dataset contains data from 2018-10-26 -> 2021-07-06.
+**Specifics:** Everything in this dataset is the same as above, however the individual posts are separated by the /ENDPOST/ tag. [CHANGE] is the price change of Bitcoin (UP or DOWN) the day after the posts [POST-DATA] were posted in YYYY-MM-DD format. [POST-DATA] is a string that contains the post body of a post from the given day concatenated and seperated by. The dataset contains data from 2018-10-26 -> 2021-07-06.
 
 ### Bert-Vectorized Bitcoin Price by Reddit Indicators (BVBPRI) Dataset
 **Purpose:** Correlates Bitcoin price data with a list of tensors that are generated from Reddit post data pushed through BERT.
