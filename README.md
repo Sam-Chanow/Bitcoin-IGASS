@@ -9,6 +9,7 @@
 * **[Datasets](https://github.com/Sam-Chanow/Bitcoin-IGASS#datasets)**
 * **[Model](https://github.com/Sam-Chanow/Bitcoin-IGASS#model)**
 * **[Outcome](https://github.com/Sam-Chanow/Bitcoin-IGASS#outcome)**
+* **[License](https://github.com/Sam-Chanow/Bitcoin-IGASS#copyright-and-license)**
 * **
 ## File Structure
 * **Bitcoin-IGASS/** - Main project directory
