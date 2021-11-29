@@ -1,6 +1,8 @@
-# Bitcoin-IGASS
+<h1 align="center"> Bitcoin-IGASS </h1>
+
 * **
-## Bitcoin Investment Growth Analysis through Similarity Scoring
+<h2 align="center"> Bitcoin Investment Growth Analysis through Similarity Scoring </h2>
+
 * **
 ## Table of Contents
 * **[File Structure](https://github.com/Sam-Chanow/Bitcoin-IGASS#file-structure)**
@@ -81,4 +83,3 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 ![Graph of BVBPRI PostFrequency to Price Increase](images/dualGraphUpDOWN.png)
 
 * The graph above shows that there is no direct correlation between post frequency and price change
-
