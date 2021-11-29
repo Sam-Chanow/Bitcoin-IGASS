@@ -83,3 +83,6 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 ![Graph of BVBPRI PostFrequency to Price Increase](images/dualGraphUpDOWN.png)
 
 * The graph above shows that there is no direct correlation between post frequency and price change
+
+## Copyright and License
+Copyright 2021 Samuel Chanow, Ryan Metz. Code released under [this LICENSE](LICENSE).
