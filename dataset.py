@@ -47,6 +47,11 @@ def parseBPRI(posts):  # Given a string of posts in BPRI format, return s a list
     return bpri
 
 
+def unlabeled_parseBPRI(posts):
+    bpri = posts.split('/ENDPOST/')
+    return bpri
+
+
 def parseBVBPRI(data):  # Given a string that is a Bert Vectorized data with a label
     pass
 

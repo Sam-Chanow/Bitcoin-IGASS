@@ -69,10 +69,26 @@ if __name__ == "__main__":  # Simple main function, acts as a searching tool for
         if (len(sys.argv) > 1) and (sys.argv[1] == '-compile'): #this command will be used to build a compiled dataset
             print("WARNING THERE ARE NO SAFEGUARDS AGAINST OVERWRITING DATA OR INCORRECT DATES")
             data_file = input("File to build dataset in: ")
-            begin_date = input("Begin date to build dataset with (YYYY-MM-DD): ")
-            end_date = input("End date to build dataset with (YYYY-MM-DD) (Exclusionary): ")
+            begin_date = input("Begin date to build dataset with (YYYY-MM-DD):")
+            end_date = input("End date to build dataset with (YYYY-MM-DD) (Exclusionary):")
+            for_test = input("Building data for testing? [Y/N]")  # If Y then we can build unlabeled data instead of labeled data
             try:
                 fp = open(data_file, 'w')
+
+                # if for_test is "Y" then we will skip the rest of this function and just build the posts and write them to a file
+                if for_test == "Y":
+                    input_file = input("File with test data: ")
+                    dates = pandas.date_range(pandas.to_datetime(begin_date), pandas.to_datetime(end_date) - timedelta(days=1), freq='d')
+                    for date in dates:
+                        print(date)
+                        date = str(date)[:10]
+                        posts = read_posts_from_day(input_file, date)
+                        posts = [clean_post_data(post) for post in posts]
+                        posts = group_posts_from_day(posts)
+                        fp.write(posts + '\n')
+                    exit(0)
+
+
                 # Get a list of dates in-between the start and end date
                 dates = pandas.date_range(pandas.to_datetime(begin_date), pandas.to_datetime(end_date)-timedelta(days=1), freq='d')
                 # print(dates)

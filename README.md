@@ -89,7 +89,7 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 * **Step 2** Compile the text dataset
   * ```python3 data.py -compile``` (When prompted enter information about the data requested. The folder location it will draw from is hardcode however so this can only change via an edit of the source code. Might be updated in the future)
 * **Step 3** Compile the vectorized dataset
-  * ```python3 model.py -vector 0``` (The number at the end can be changed if you want to stop/resume later. The location of the dataset to vectorize can be changed in the source code.)
+  * ```python3 model.py -vector -labeled 0``` (The number at the end can be changed if you want to stop/resume later. The location of the dataset to vectorize can be changed in the source code.)
 
 
 TODO: Write about training the model with the given datasets

@@ -14,7 +14,7 @@ import torch.optim as optim
 
 # This function will use BERT to vectorize a datset and return a new Dataset
 # This function expects a BPRI parsed dataset
-def build_vector_data(raw_data, start_tok=0):  # raw_data is a dataset object, and this will make a vectorized dataset for the model
+def build_vector_data(raw_data, start_tok=0, unlabeled=False):  # raw_data is a dataset object, and this will make a vectorized dataset for the model
     # Vector data writes the vectorized data to a file and returns a dataset object pointing to that file
 
     tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
@@ -29,8 +29,11 @@ def build_vector_data(raw_data, start_tok=0):  # raw_data is a dataset object, a
         f_n += 1
         if f_n < start_tok: continue
         # The line above lets you pickup at a different file
-        label = post[0]
-        posts = post[1]
+        if not unlabeled:
+            label = post[0]
+            posts = post[1]
+        else:
+            posts = post
 
         v = [label, []]
 
@@ -51,9 +54,14 @@ def average_tensors(data):
 
 
 if __name__ == "__main__":
-    if (len(sys.argv) > 1) and (sys.argv[1] == '-vector'):
-        D = dataset.Dataset(['data/compiled-datasets/BPRI-POSTSPLIT/BPRI00.bpri', 'data/compiled-datasets/BPRI-POSTSPLIT/BPRI01.bpri', 'data/compiled-datasets/BPRI-POSTSPLIT/BPRI02.bpri'], dataset.parseBPRI)
-        build_vector_data(D, int(sys.argv[2]))
+    if (len(sys.argv) > 2) and (sys.argv[1] == '-vector'):
+        if sys.argv[2] == '-labeled':
+            D = dataset.Dataset(['data/compiled-datasets/BPRI-POSTSPLIT/BPRI00.bpri', 'data/compiled-datasets/BPRI-POSTSPLIT/BPRI01.bpri', 'data/compiled-datasets/BPRI-POSTSPLIT/BPRI02.bpri'], dataset.parseBPRI)
+            build_vector_data(D, int(sys.argv[3]))
+        elif sys.argv[2] == '-unlabeled':
+            input_file = input("Dataset path: ")
+            D = dataset.Dataset([input_file], dataset.unlabeled_parseBPRI)
+            build_vector_data(D, int(sys.argv[3]), unlabeled=True)
     if (len(sys.argv) > 1) and (sys.argv[1] == '-load'):
         l = torch.load('data/compiled-datasets/BVBPRI/BVBPRI0.pt')
         print(l[1][0])

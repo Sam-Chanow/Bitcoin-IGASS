@@ -17,7 +17,7 @@ username = ""  # put the username you want to download in the quotes
 subreddit = "Cryptocurrency"  # put the subreddit you want to download in the quotes
 # leave either one blank to download an entire user's or subreddit's history
 # or fill in both to download a specific users history from a specific subreddit
-END_DATE = 1540440000 #OCT 25 2018 at 0:0:0
+END_DATE = 1638162000#1540440000 #OCT 25 2018 at 0:0:0
 filter_string = None
 if username == "" and subreddit == "":
 	print("Fill in either username or subreddit")
@@ -99,5 +99,5 @@ def downloadFromUrl(filename, object_type):
 	print(f"Saved {count} {object_type}s")
 	handle.close()
 
-
-downloadFromUrl("raw-datasets/cryptocurrency-posts/r-cryptocurrency-posts.txt", "submission")
+#raw-datasets/cryptocurrency-posts/r-cryptocurrency-posts.txt
+downloadFromUrl("temp/evaluate_raw", "submission")
