@@ -29,13 +29,13 @@ def build_vector_data(raw_data, start_tok=0, unlabeled=False):  # raw_data is a 
         f_n += 1
         if f_n < start_tok: continue
         # The line above lets you pickup at a different file
+        v = []
         if not unlabeled:
             label = post[0]
             posts = post[1]
+            v = [label, []]
         else:
             posts = post
-
-        v = [label, []]
 
         for s in tqdm(posts):
             post_v = tokenizer(s, truncation=True, return_tensors="pt", padding=True)
@@ -43,14 +43,30 @@ def build_vector_data(raw_data, start_tok=0, unlabeled=False):  # raw_data is a 
             data = outputs.last_hidden_state[0][0]
             v[1].append(data)
 
-        torch.save(v, 'data/compiled-datasets/BVBPRI/BVBPRI' + str(f_n) + '.pt')
+        if not unlabeled:
+            torch.save(v, 'data/compiled-datasets/BVBPRI/BVBPRI' + str(f_n) + '.pt')
+        else:
+            torch.save(v, 'data/temp/evaluate.pt')
         #if f_n > 1: break;
 
 
 def average_tensors(data):
     # Takes in a list of tensors, data
     #average them all together and return a single tensor
-    pass
+    num = len(data)
+    sum = 0
+
+    for t in data:
+        sum += t
+
+    return sum/num
+
+
+def build_labels(label):
+    if label == 'UP ': return [1,0]
+    elif label == 'DOWN ': return [0,1]
+    else:
+        print("FUCK YOU")
 
 
 if __name__ == "__main__":

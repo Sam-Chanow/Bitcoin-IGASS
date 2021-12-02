@@ -14,32 +14,39 @@
 * **
 ## File Structure
 * **Bitcoin-IGASS/** - Main project directory
-  * **data/** - Contains project datasets and data compilers
-    * **compiled-datasets** - Labeled and ready to use datasets 
-      * **BPRI** - Labeled price, to post dataset 
-      * **BPRI-POSTSPLIT** -Modified BPRI dataset where posts are split by '/ENDPOST'
-      * **BVBPRI** - Bert Vectorized compilation of the BPRI dataset. This stores each days worth of data as a labeled tensor is an individual file. This data is not in the github repository because it is around 90 GB.
-      * **backup** -Backup zipped data
-    * **raw-datasets** - The raw collected data from reddit and Bitcoin's price index
-      * **backup** - Backup zipped data
-      * **bitcoin-posts** - r/Bitcoin posts data
-      * **bitcoin-price** - Bitcoin price data
-      * **cryptocurrency-posts** - r/Cryptocurrency posts data
-    * **data.py** - Provide and manipulate the compiled datasets
-      * When run with option ```-post```, it can search by date through the whole r-cryptocurrency-posts dataset and return the posts from that date
-      * When run with ```-price```, it can search by date and return price labels from a specified date
-      * When used with ```-compile```, creates a dataset for the compiled-datasets folder
-    * **postDownloader.py** - Manipulates the pushshift.io to retrieve reddit post data
-  * **Images** - Contains graphs and images for the README
-  * **model/** -Contains model information
+    * **bin/** - Contains bash scripts to run prediction model
+      * **build.sh** - builds a dataset (shouldn't be sued without care)
+      * **evaluate.sh** - grabs post data from current day and gives prediction
+      * **train.sh** - trains the tensorflow model
+    * **data/** - Contains project datasets and data compilers
+      * **compiled-datasets** - Labeled and ready to use datasets 
+        * **BPRI** - Labeled price, to post dataset 
+        * **BPRI-POSTSPLIT** -Modified BPRI dataset where posts are split by '/ENDPOST'
+        * **BVBPRI** - Bert Vectorized compilation of the BPRI dataset. This stores each days worth of data as a labeled tensor is an individual file. This data is not in the github repository because it is around 90 GB.
+        * **backup** -Backup zipped data
+      * **raw-datasets** - The raw collected data from reddit and Bitcoin's price index
+        * **backup** - Backup zipped data
+        * **bitcoin-posts** - r/Bitcoin posts data
+        * **bitcoin-price** - Bitcoin price data
+        * **cryptocurrency-posts** - r/Cryptocurrency posts data
+      * **data.py** - Provide and manipulate the compiled datasets
+        * When run with option ```-post```, it can search by date through the whole r-cryptocurrency-posts dataset and return the posts from that date
+        * When run with ```-price```, it can search by date and return price labels from a specified date
+        * When used with ```-compile```, creates a dataset for the compiled-datasets folder
+      * **postDownloader.py** - Manipulates the pushshift.io to retrieve reddit post data
+    * **images/** - Contains graphs and images for the README
+    * **logs/** - Tensorflow training logs (can be used with tensorboard)
+    * **model/** -Contains model information
     * **Net.py** - Torch model information 
-  * **Predict.py** - Main python file to predict next days Bitcoin price data
+    * **Predict.py** - Main python file to predict next days Bitcoin price data
     * **Usage:**
       * ```python3 predict.py -train```
       * ```python3 predict.py -predict FILE```, where FILE is the path to the file with the data in it.
-  * **Readme.md** - Readme file
-  * **dataset.py** - Iterable object that will read and parse all data from BPRI formatted files
-  * **model.py** - The model used for price prediction. Can be run standalone to vectorize text data with Bert using the command ```python3 model.py - vector N```, where N is the number of iterations to skip before vectorizing.
+    * **Readme.md** - Readme file
+    * **dataset.py** - Iterable object that will read and parse all data from BPRI formatted files
+    * **model.py** - The model used for price prediction. Can be run standalone to vectorize text data with Bert using the command ```python3 model.py - vector N```, where N is the number of iterations to skip before vectorizing.
+    * **LICENSE** - Project License
+    * **graphing.py** - SOme extra graphing functions with the dataset
 * **
 ## Datasets
 ### Bitcoin Price by Reddit Indicators (BPRI) Dataset
@@ -69,14 +76,16 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 * **BVBPRI Dataset**: Labeled lists of tensors.
 ### Learning Model
 **Classifier**
-* **RNN**: Possibly run this list of vectors through the RNN and train an RNN, maybe positional relationships will help the classifier.
-* **Logistic Regression**: Most likely we will average or add all of those vectors and run it through a Logistic regression Model
+
+Using a Tensorflow 2.0 Neural Network Classifier. (This next part is subject to change) Using 1 hidden layer and an output state of size 2.
 
 **Parameters**:
-* TODO
+* 200 epochs
+* Batch size of 500
+* tanh activation
 
 **Output**:
-* TODO
+* Vector of size 2, i.e. ```[0,1]```, which indicates the price went down. or the inverse which indicates the price went up.
 
 
 * **
@@ -84,19 +93,17 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 ## Usage
 
 **Building the Dataset:**
-* **Step 1** Download the data
-  * ```python3 postDownloader.py``` (Make changes as necessary to source code to change download location/specific subreddit)
-* **Step 2** Compile the text dataset
-  * ```python3 data.py -compile``` (When prompted enter information about the data requested. The folder location it will draw from is hardcode however so this can only change via an edit of the source code. Might be updated in the future)
-* **Step 3** Compile the vectorized dataset
-  * ```python3 model.py -vector -labeled 0``` (The number at the end can be changed if you want to stop/resume later. The location of the dataset to vectorize can be changed in the source code.)
+
+Run ```/bin/build.sh``` and fill in any propmted information in the terminal. NOTICE: This will overwrite the data in the dataset directories.
 
 
-TODO: Write about training the model with the given datasets
+**Training the Model:**
 
-TODO: Write about creating your own dataset for training
+Run ```/bin/train.sh``` #TODO
 
-TODO: Write about how to create daily test data
+**Predicting Next Day Price Movement:**
+
+Run ```/bin/evaluate.sh``` #TODO
 
 * **
 
