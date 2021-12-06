@@ -4,6 +4,13 @@
 <h2 align="center"> Bitcoin Investment Growth Analysis through Similarity Scoring </h2>
 
 * **
+
+<h2 align="center">Purpose</h2>
+
+The Bitcoin Investment Growth Analysis through Similarity Scoring project attempts to correlate Reddit posts in r/Cryptocurrency
+and r/Bitcoin with the rise and fall of Bitcoin's price the following day.
+
+* **
 ## Table of Contents
 * **[File Structure](https://github.com/Sam-Chanow/Bitcoin-IGASS#file-structure)**
 * **[Datasets](https://github.com/Sam-Chanow/Bitcoin-IGASS#datasets)**
@@ -36,8 +43,9 @@
       * **postDownloader.py** - Manipulates the pushshift.io to retrieve reddit post data
     * **images/** - Contains graphs and images for the README
     * **logs/** - Tensorflow training logs (can be used with tensorboard)
-    * **model/** -Contains model information
-    * **Net.py** - Torch model information 
+    * **tensorflow_model/** -Contains model information
+      * **tf_model.py** - the model used for prediction
+      * **checkpoints** - saved model/weight configurations for reloading during prediction
     * **Predict.py** - Main python file to predict next days Bitcoin price data
     * **Usage:**
       * ```python3 predict.py -train```
@@ -72,17 +80,22 @@ This dataset correlates reddit posts from the subreddits r/Cryptocurrency and r/
 **Specifics:** The data from each file can be loaded with ```L = torch.load('BVBPRI___.pt')```, and the data retrieved will be a 2d list where ```L[0]``` is the label, either UP or DOWN, and ```L[1]``` is a list of tensors.
 * **
 ## Model
-### Expected Data
-* **BVBPRI Dataset**: Labeled lists of tensors.
-### Learning Model
 **Classifier**
 
-Using a Tensorflow 2.0 Neural Network Classifier. (This next part is subject to change) Using 1 hidden layer and an output state of size 2.
+Tensorflow 2.0 Neural Network Classifier.
+
+5 Layers:
+
+* Input layer
+* 3 Dense layers with tanh activation
+* Output layer of size 2 with softmax activation
 
 **Parameters**:
-* 200 epochs
-* Batch size of 500
+* 60 epochs
 * tanh activation
+* learning rate: 0.001
+* Adam Optimizer
+* Using Keras callback, model with best validation set accuracy is saved and loaded for evaluation
 
 **Output**:
 * Vector of size 2, i.e. ```[0,1]```, which indicates the price went down. or the inverse which indicates the price went up.
@@ -113,13 +126,32 @@ Run ```/bin/evaluate.sh``` #TODO
 
 ![Graph of BVBPRI datset size per day to day](images/datafrequency.png)
 
-* The post frequency in the last 100 days is hundreds of times higher than in the first 2/3 of the dataset.
+The post frequency in the last 100 days is hundreds of times higher than in the first 2/3 of the dataset.
 
 **Post-Frequency / Price Correlation:**
 
 ![Graph of BVBPRI PostFrequency to Price Increase](images/dualGraphUpDOWN.png)
 
-* The graph above shows that there is no direct correlation between post frequency and price change
+The graph above shows that there is no direct correlation between post frequency and price change
+
+**Training and Accuracy:**
+
+**Initial testing:**
+![Initial testing](images/1HiddenLayer140EpochstanhActivation.png)
+
+While it may appear at first that this initial testing provided a strong learning model, there was a flaw in our training pipeline.
+the test data was always coming from the final 66 files of the BVBPRI dataset. The model was very confidant with recent data but if you exposed it to anything other than these last 66 days it dropped off dramatically.
+
+**Attempted Models:**
+![Graph of BVBPRI PostFrequency to Price Increase](images/PreviousIterations.png)
+This graph shows a few of the different tests we ran, these were all based on single hidden layer models and as you can see very much overfit to the training data.
+
+
+**Final Model**
+![Training accuracy graph](images/FinalAccuracy.png)
+
+This is the training and test accuracy for the final model. The test accuracy oscillated between 52 and 65 but does obviously trend upwards.
+With the accuracy of the training data epochs and the slow rise of the test data accuracy, we believe that a better accuracy could be obtained with more training data.
 
 ## Copyright and License
 Copyright 2021 Samuel Chanow, Ryan Metz. Code released under [this LICENSE](LICENSE).
