@@ -5,7 +5,7 @@ from packaging import version
 
 # based on code from https://towardsdatascience.com/how-to-split-a-tensorflow-dataset-into-train-validation-and-test-sets-526c8dd29438 "get_dataset_partitions_tf"
 
-logdir = "logs/new_logs/" + datetime.now().strftime("%Y%m%d-%H%M%S")
+logdir = "../logs/new_logs/" + datetime.now().strftime("%Y%m%d-%H%M%S")
 tensorboard_callback = keras.callbacks.TensorBoard(log_dir=logdir)
 
 
@@ -32,7 +32,7 @@ class TFModel:
 
     def train(self, train_data, eval_data):
         r_lr = tf.keras.callbacks.ReduceLROnPlateau(monitor='val_loss', factor=0.3, patience=5, min_lr=0.001)
-        s_b_model = tf.keras.callbacks.ModelCheckpoint(filepath='tensorflow_model/checkpoints/', save_weights_only=False,
+        s_b_model = tf.keras.callbacks.ModelCheckpoint(filepath='../tensorflow_model/checkpoints/', save_weights_only=False,
                                                        monitor='val_accuracy', mode='max', save_best_only=True)
 
         self.history = self.model.fit(
@@ -45,7 +45,7 @@ class TFModel:
         )
 
     def evaluate(self, x_data, y_labels):
-        self.model = tf.keras.models.load_model('tensorflow_model/checkpoints/')
+        self.model = tf.keras.models.load_model('../tensorflow_model/checkpoints/')
         return self.model.evaluate(x_data, y_labels)
 
         #self.model.load_weights('tensorflow_model/checkpoints/')

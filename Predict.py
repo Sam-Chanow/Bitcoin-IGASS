@@ -15,7 +15,7 @@ import tf_model
 if __name__ == "__main__":
     if (len(sys.argv) > 1) and (sys.argv[1] == '-train'):
         #Build the dataset from BVBPRI data
-        D = Dataset(['data/compiled-datasets/BVBPRI/BVBPRI' + str(x) + '.pt' for x in range(0, 967)],tensor_data=True) #967
+        D = Dataset(['../data/compiled-datasets/BVBPRI/BVBPRI' + str(x) + '.pt' for x in range(0, 967)],tensor_data=True) #967
         D = iter(D)
 
         X = []
