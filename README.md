@@ -107,6 +107,7 @@ Tensorflow 2.0 Neural Network Classifier.
 
 IMPORTANT: YOU CANNOT RUN THE FILES INDEPENDENTLY. THEY MUST BE RUN FROM THE BASH SCRIPTS BECAUSE OF FILE PATHING
 IMPORTANT: YOU MUST RUN THE BASH SCRIPTS INSIDE THE BIN FOLDER
+
 **Building the Dataset:**
 
 Run ```build.sh``` and fill in any propmted information in the terminal. NOTICE: This will overwrite the data in the dataset directories.
