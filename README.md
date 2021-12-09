@@ -105,6 +105,8 @@ Tensorflow 2.0 Neural Network Classifier.
 
 ## Usage
 
+IMPORTANT: YOU CANNOT RUN THE FILES INDEPENDENTLY. THEY MUST BE RUN FROM THE BASH SCRIPTS BECAUSE OF FILE PATHING
+
 **Building the Dataset:**
 
 Run ```/bin/build.sh``` and fill in any propmted information in the terminal. NOTICE: This will overwrite the data in the dataset directories.
@@ -116,7 +118,18 @@ Run ```/bin/train.sh``` #TODO
 
 **Predicting Next Day Price Movement:**
 
-Run ```/bin/evaluate.sh``` #TODO
+Run ```/bin/evaluate.sh``` 
+
+Enter these values when prompted:
+
+1) ```../temp_evaluate/evaluateBPRI.bpri```
+2) Today's date
+3) Tomorrow's date
+4) ```Y```
+5) ```../temp_evaluate/evaluate_raw.txt```
+6) ```../temp_evaluate/evaluate_raw_s.txt```
+7) ```../temp_evaluate/evaluateBPRI.bpri```
+
 
 * **
 

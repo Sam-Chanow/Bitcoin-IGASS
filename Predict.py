@@ -6,8 +6,8 @@ import numpy as np
 import tensorflow as tf
 
 #adding the model folder path
-sys.path.append('model/')
-sys.path.append('tensorflow_model/')
+sys.path.append('../model/')
+sys.path.append('../tensorflow_model/')
 
 import model
 import tf_model
@@ -121,25 +121,42 @@ if __name__ == "__main__":
         pass
 
     if (len(sys.argv) > 1) and (sys.argv[1] == '-test'):
-        pass
-        #None of this works yet, needs to be replaced for compatability with tensorflow model
-        M = torch.load("NN") #model/loss.pt")
-        num = 300
-        D = Dataset(['data/compiled-datasets/BVBPRI/BVBPRI' + str(num) + '.pt'], tensor_data=True)
+        tfm = tf_model.TFModel()
+
+        D = Dataset(['../temp_evaluate/evaluateBVBPRI.pt'], tensor_data=True)  # 967
         D = iter(D)
-        X = []
-        for x in D:
-            x[1] = model.average_tensors(x[1])
-            x[0] = model.build_labels(x[0])
+
+        X = [[]]
+        count = 0
+
+        for x in tqdm(D):
+            x = model.average_tensors(x).tolist()
+            # print(x[1])
             # print(x)
-            X.append([x[0], x[1]])
+            X[0].append(x)
+            # print(L)
+            # print(len(L[0][1]))
+            # exit(0)
+            count += 1
+            # print("Tensor", count, "averaged.")
+            if count > 1000: break;
 
-        Y = [torch.FloatTensor(l[0]) for l in X]
-        X = [l[1] for l in X]
+        # print(X[0])
+        #X = [t[1] for t in X]
 
-        X = torch.stack(X)
-        Y = torch.stack(Y)
+        # print("RAW Y:", Y)
 
-        print(X.size())
-        output = M(X[0])
-        print("OUTPUT:", output, "LABEL:", Y[0])
+        tfm = tf_model.TFModel()
+        data = tfm.preprocess_unlabeled(X)
+
+        print("DATA:", [x for x in data])
+
+        score = tfm.predict(data)
+        max_index = np.argmax(score[0])
+        max_val = score[0][max_index]
+        change = "Bitcoin's price will rise tomorrow" if max_index == 0 else "Bitcoin's price will fall tomorrow"
+        confidence = str(int(max_val * 100)) + "%"
+        output_screen = "###########################\n" + change + "\n" + \
+            "Confidence is " + confidence + "\n" + "###########################"
+        print(output_screen)
+

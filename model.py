@@ -41,12 +41,15 @@ def build_vector_data(raw_data, start_tok=0, unlabeled=False):  # raw_data is a 
             post_v = tokenizer(s, truncation=True, return_tensors="pt", padding=True)
             outputs = model(**post_v)
             data = outputs.last_hidden_state[0][0]
-            v[1].append(data)
+            if not unlabeled:
+                v[1].append(data)
+            else:
+                v.append(data)
 
         if not unlabeled:
             torch.save(v, 'data/compiled-datasets/BVBPRI/BVBPRI' + str(f_n) + '.pt')
         else:
-            torch.save(v, 'data/temp/evaluate.pt')
+            torch.save(v, '../temp_evaluate/evaluateBVBPRI.pt')
         #if f_n > 1: break;
 
 
@@ -63,10 +66,10 @@ def average_tensors(data):
 
 
 def build_labels(label):
-    if label == 'UP ': return [1,0]
-    elif label == 'DOWN ': return [0,1]
+    if label == 'UP ': return [1,0]#[1,0]
+    elif label == 'DOWN ': return [0,1]#[0,1]
     else:
-        print("FUCK YOU")
+        print("LABEL ERROR")
 
 
 if __name__ == "__main__":

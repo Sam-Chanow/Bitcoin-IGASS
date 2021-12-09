@@ -13,28 +13,37 @@ import sys
 
 import simplejson.errors
 
-username = ""  # put the username you want to download in the quotes
-subreddit = "Cryptocurrency"  # put the subreddit you want to download in the quotes
-# leave either one blank to download an entire user's or subreddit's history
-# or fill in both to download a specific users history from a specific subreddit
-END_DATE = 1638162000#1540440000 #OCT 25 2018 at 0:0:0
-filter_string = None
-if username == "" and subreddit == "":
-	print("Fill in either username or subreddit")
-	sys.exit(0)
-elif username == "" and subreddit != "":
-	filter_string = f"subreddit={subreddit}"
-elif username != "" and subreddit == "":
-	filter_string = f"author={username}"
-else:
-	filter_string = f"author={username}&subreddit={subreddit}"
 
-url = "https://api.pushshift.io/reddit/{}/search?limit=1000&sort=desc&{}&before="
+def downloadFromUrl(filename, object_type, subreddit="Cryptocurrency", last_day=True):
 
-start_time = datetime.utcnow()
+	username = ""  # put the username you want to download in the quotes
+	#subreddit = "Cryptocurrency"  # put the subreddit you want to download in the quotes
+	# leave either one blank to download an entire user's or subreddit's history
+	# or fill in both to download a specific users history from a specific subreddit
+	END_DATE = 1638162000  # 1540440000 #OCT 25 2018 at 0:0:0
+
+	if last_day:
+		now = datetime.now()
+		previous_midnight = datetime(now.year, now.month, now.day)
+		END_DATE = int(previous_midnight.strftime("%s"))
+
+	filter_string = None
+	if username == "" and subreddit == "":
+		print("Fill in either username or subreddit")
+		sys.exit(0)
+	elif username == "" and subreddit != "":
+		filter_string = f"subreddit={subreddit}"
+	elif username != "" and subreddit == "":
+		filter_string = f"author={username}"
+	else:
+		filter_string = f"author={username}&subreddit={subreddit}"
+
+	url = "https://api.pushshift.io/reddit/{}/search?limit=1000&sort=desc&{}&before="
+
+	start_time = datetime.utcnow()
 
 
-def downloadFromUrl(filename, object_type):
+
 	print(f"Saving {object_type}s to {filename}")
 
 	count = 0
@@ -82,7 +91,7 @@ def downloadFromUrl(filename, object_type):
 						continue
 					try:
 						if int(str(object['created_utc'])) < END_DATE:
-							exit(0)
+							return  # exit(0)
 						handle.write(str(object['created_utc']))
 						#handle.write(str(object['score']))
 						#handle.write(" : ")
@@ -99,5 +108,9 @@ def downloadFromUrl(filename, object_type):
 	print(f"Saved {count} {object_type}s")
 	handle.close()
 
+
 #raw-datasets/cryptocurrency-posts/r-cryptocurrency-posts.txt
-downloadFromUrl("temp/evaluate_raw", "submission")
+downloadFromUrl("../temp_evaluate/evaluate_raw.txt", "submission", subreddit="Cryptocurrency")
+print("DONE 1")
+downloadFromUrl("../temp_evaluate/evaluate_raw_s.txt", "submission", subreddit="Bitcoin")
+print("DONE 2")

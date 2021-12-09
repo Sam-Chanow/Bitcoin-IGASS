@@ -24,14 +24,15 @@ class TFModel:
         #Adam or SGD Optimizer?
         #Maybe change the learnign rate?
         #Loss type, either categoricalCrossentropy or Binary binary_crossentropy
-        optim = keras.optimizers.SGD(learning_rate=0.01, momentum=0.9) #0.001
+        #optim = keras.optimizers.SGD(learning_rate=0.1, momentum=0.9) #0.001
         #optim = tf.train.AdamOptimizer(learning_rate=0.01)
         #Creating some callbacks here to improve learning
+        #'adam'
         self.model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']) #tf.losses.CategoricalCrossentropy(from_logits=True 'binary_crossentropy',
 
     def train(self, train_data, eval_data):
         r_lr = tf.keras.callbacks.ReduceLROnPlateau(monitor='val_loss', factor=0.3, patience=5, min_lr=0.001)
-        s_b_model = tf.keras.callbacks.ModelCheckpoint(filepath='tensorflow_model/checkpoints/', save_weights_only=True,
+        s_b_model = tf.keras.callbacks.ModelCheckpoint(filepath='tensorflow_model/checkpoints/', save_weights_only=False,
                                                        monitor='val_accuracy', mode='max', save_best_only=True)
 
         self.history = self.model.fit(
@@ -40,18 +41,26 @@ class TFModel:
                 steps_per_epoch=100,
                 validation_data=eval_data.repeat(),
                 validation_steps=3,
-                callbacks=[tensorboard_callback, r_lr, s_b_model]
+                callbacks=[tensorboard_callback, s_b_model] #r_lr
         )
 
     def evaluate(self, x_data, y_labels):
-        self.model.load_weights('tensorflow_model/checkpoints/')
+        self.model = tf.keras.models.load_model('tensorflow_model/checkpoints/')
         return self.model.evaluate(x_data, y_labels)
 
+        #self.model.load_weights('tensorflow_model/checkpoints/')
+        #return self.model.evaluate(x_data, y_labels)
+
     def predict(self, data):
+        self.model = tf.keras.models.load_model('../tensorflow_model/checkpoints/')
+        #self.model.load_weights('tensorflow_model/checkpoints/')
         return self.model.predict(data)
 
     def preprocess(self, x, y):
         return tf.data.Dataset.from_tensor_slices((x, y)).shuffle(len(y)).batch(967) #500 batch for max
+
+    def preprocess_unlabeled(self, x):
+        return tf.data.Dataset.from_tensor_slices((x))
 
     def save(self):
         ## TODO: Write this function to save the model in tensorflow_model/tfmodel_checkpoint

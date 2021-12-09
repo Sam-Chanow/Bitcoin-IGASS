@@ -77,13 +77,17 @@ if __name__ == "__main__":  # Simple main function, acts as a searching tool for
 
                 # if for_test is "Y" then we will skip the rest of this function and just build the posts and write them to a file
                 if for_test == "Y":
-                    input_file = input("File with test data: ")
+                    input_file = input("File with test data (1/2): ")
+                    input_file_s = input("File with test data (2/2): ")
                     dates = pandas.date_range(pandas.to_datetime(begin_date), pandas.to_datetime(end_date) - timedelta(days=1), freq='d')
                     for date in dates:
                         print(date)
                         date = str(date)[:10]
                         posts = read_posts_from_day(input_file, date)
+                        posts_s = read_posts_from_day(input_file_s, date)
                         posts = [clean_post_data(post) for post in posts]
+                        posts_s = [clean_post_data(post) for post in posts_s]
+                        posts = posts + posts_s
                         posts = group_posts_from_day(posts)
                         fp.write(posts + '\n')
                     exit(0)
