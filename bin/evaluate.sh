@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "INSTALLING DEPENDENCIES"
+pip install requests datetime traceback time json sys pandas torch transformers tqdm simplejson.errors tensorflow numpy
 echo "BEGINNING EVALUATION PIPELINE"
 echo "GATHERING DATA"
 python3 ../data/postDownloader.py

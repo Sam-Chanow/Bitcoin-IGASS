@@ -110,7 +110,7 @@ IMPORTANT: YOU CANNOT RUN THE FILES INDEPENDENTLY. THEY MUST BE RUN FROM THE BAS
 IMPORTANT: YOU MUST RUN THE BASH SCRIPTS INSIDE THE BIN FOLDER
 
 **Dependencies**
-Make sure the following python libraries are installed on your machine before attempting to run any of the scripts:
+These are the packages required for the evaluation script, and are automatically installed on runtime:
 * requests
 * datetime
 * traceback

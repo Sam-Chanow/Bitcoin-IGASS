@@ -1,440 +1,245 @@
-16390723762021-12-09
-[removed]
--------------------------------
-16390717022021-12-09
-I'm really unfamiliar the wallet aspect and am hoping to get some advice/recommendations on a decent wallet. I've downloaded mycelium but am not sure if that's the right way to go. Thanks
--------------------------------
-16390708302021-12-09
-Been part of the BTC community since 2013. I have seeds from wallets long ago. I post a simple question about a seed I have and the post gets locked. Super funs mods in here.
--------------------------------
-16390707392021-12-09
-[removed]
--------------------------------
-16390705602021-12-09
-Does anyone know if legaltradeexchange is a legitimate place to trade coin?
--------------------------------
-16390696762021-12-09
-Decentralized I get it.  It Produces nothing, you can't touch it/hold it or eat it.   If everyone who is in on it owns it for the sole reason of expecting it to go higher that is actually extremely terrifying for an investor.  It's intrinsic value is actually less valuable than the paper that a cheque is written plus the speculators.   I put in $500 for fun earlier this year but can't see myself ever adding more.  I just see it as a casino and not an investment.   Change my mind?
--------------------------------
-16390673822021-12-09
-[removed]
--------------------------------
-16390673252021-12-09
-[removed]
--------------------------------
-16390667252021-12-09
-[removed]
--------------------------------
-16390662192021-12-09
-Umm... I just started to get into bitcoin but don't know where or how to start.  Can anyone please help me :)
-And I made a wallet on my phone
-If anyone could send me even 0.0000000001 bitcoin it would be a great help if not
-I'd love the advice thanks
--------------------------------
-16390655682021-12-09
-Hi guys! 
-I have been holding a small beginner portfolio for about a year now.
-I would like to start diversifying and put in a bit more.
+16391471382021-12-10
+Asking in the context of Proof of Work vs Proof of Stake in protecting against state level 51% attacks.
 
-My portfolio at the moment consists off:
-250 usd bitcoin
-380 usd eth
-125 usd bnb 
-
-I would like to ask which one of these i should hold for now.
-I'd also like to know if there are any newer coins that are worth a small investment.
-
-I would also like to ask that if you have any good places where i can get some good educational information or other places where i can ask for advice.
-
-I doubt anyone can predict what will happen with the most popular coins at the moment but who knows. 
-Maybe i can make the gamble slightly less gambly ha ha ha.
-
-
-Thanks in advance!
+Thanks!
 -------------------------------
-16390655162021-12-09
-[removed]
+16391470592021-12-10
+Polker game I am turning to[ **$PKR**](https://twitter.com/search?q=%24PKR&amp;src=cashtag_click) of as the[ \#CryptoGaming](https://twitter.com/hashtag/CryptoGaming?src=hashtag_click) token to ape, considering its intention to support the next-gen with 3D characters, visual effects, &amp; more.
 -------------------------------
-16390652862021-12-09
-[removed]
+16391466092021-12-10
+Looking for more people to join our meetups. DM me for more details of when and where.
 -------------------------------
-16390641102021-12-09
-[removed]
+16391458712021-12-10
+So far Ive been buying my bitcoins on Coinbase, but I feel their fees are high, and their daily buying limits really low when using a card or Apple Pay. Can someone recommend a better exchange?
 -------------------------------
-16390634992021-12-09
-[removed]
+16391456042021-12-10
+Just a discussion point really, I've been hodling a small amount of btc for a long, long time but i recently read lots of UK banks won't accept payments from btc exchanges anymore so it got me thinking, how on earth would I cash out safely?
+
+What's the standard way to cash out these days?
 -------------------------------
-16390626612021-12-09
-Just set up a node and still learning. How do I find the first peer? Also, question- do I have to let the blockchain history finish downloading first before I can open the first channel? Also one more question- can I not send sats to the wallet/lightening wallet address before the blockchain finishes downloading(and what happens if I do that) ? Help me out here 
--------------------------------
-16390623062021-12-09
-[https://youtu.be/SwW9oxGNHto](https://youtu.be/SwW9oxGNHto)
--------------------------------
-16390619102021-12-09
-Hello there. A lot of paysafecards have been given to me for my birthday and I dont really know what to do with them.
-
-I was wondering if there is any legit way to exchange paysafecards to bitcoin?
-
-I am from Austria if that matters.
-
-Thank you in advance.
--------------------------------
-16390604222021-12-09
-
--------------------------------
-16390598692021-12-09
-Yeah, I dared, I call Hal Finney Satoshi, ok now moving on while your heads are still spinning...
-
-Finneys  prescient email, which ends up taking the form of a cheesy  advert,  states that the buying and selling of digital coins could mushroom into  the trading of cryptographic trading cards which he calls  fascinating  examples of the cryptographic arts. Finney jokes that they  will come  to mirror standard physical cards:
-
-&gt;Your  friends will undoubtedly love these cryptographic  trading cards just  as much. Theyll be eager to trade for them. Collect a  whole set!
-
-Finney even goes as far as describing the rarity concept:
-
-&gt;They  come in all kinds of varieties, from the common 1s,  to the rarer  50s, all the way up to the seldom-seen 1000s. Hours of  fun can be had  for all.
-
-**Hal** 74076.1041 CompuServe dot com
-
-*Jan 17 10:53:24 PST 1993*
-
-''Giving a little more thought to the idea of buying and selling digital cash, I   thought of a way to present it. We're buying and selling  ''cryptographic trading cards''. Fans of cryptography will love these   fascinating examples of the cryptographic arts. Notice the fine way the bit patterns fit together, a mix of one-way functions and digital   signatures, along with random blinding. What a perfect conversation   piece to be treasured and shown to your friends and family.''
-
-Source: [https://fullycrypto.com/hal-finney-1993-email-foresaw-nfts](https://fullycrypto.com/hal-finney-1993-email-foresaw-nfts)
--------------------------------
-16390595812021-12-09
-&lt;iframe width="560" height="315" src="[https://www.youtube.com/embed/ohp-Trq4HU4](https://www.youtube.com/embed/ohp-Trq4HU4)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
--------------------------------
-16390593172021-12-09
-[removed]
--------------------------------
-16390585262021-12-09
-Hi, I was going through some old papers and I found a 19 word seed. I searched a list of mnemonic words for Bitcoin but didn't find the words in it. Are there other blockchains that used to use 19 word phrase? If so, what are they and what is the best way of accessing the wallet? I really doubt there is much of anything in the wallet.
+16391454232021-12-10
+To be straight to the point, the utilization of cryptocurrencies over different centralized monetary forms gives a few benefits (for illustration, frictionless exchanges and expansion control). Numerous financial specialists join such monetary standards to their wide portfolios as there are certain focal points of cryptocurrency out there indeed.
 
 &amp;#x200B;
 
-Also, I know not to trust anyone and to never give my phrase to anyone.
--------------------------------
-16390583722021-12-09
-If the Government thinks taxes will pay for new spending they need crypto to be profitable for Americans. Crypto could be the new export to replace oil because it is a gateway to US DOLLARS. MOST crypto is traded in stable coins backed by usd. This will expand the money supply and add value to the dollar. They are finally acknowledging this Fact. btfd
--------------------------------
-16390567882021-12-09
-Need assistance for my Coinbase purchase limit
--------------------------------
-16390563742021-12-09
-[removed]
--------------------------------
-16390558442021-12-09
-I  am not particularly new to options trading on stocks and indexes, but BTC options seem to me like a completely different ball game.  Pricing of BTC options seems to be out of touch at times, and  therefore might be an interesting opportunity to make extra profits.
-
-What  I am looking for is a mobile/desktop app to test some crypto options  strategies before committing the actual capital. Preferably with a  reasonable execution that would mimic the real trading pnl (bid/ask,  etc.)
--------------------------------
-16390557832021-12-09
-[removed]
--------------------------------
-16390553542021-12-09
-Dude I need verified U.S Coinbase to make a purchase. You get a percentage. Text me if you are eligible
--------------------------------
-16390552102021-12-09
-[removed]
--------------------------------
-16390547952021-12-09
-Good news  
-[https://crypto-academy.org/bitcoin-network-hash-rate-nearly-above-ath/](https://crypto-academy.org/bitcoin-network-hash-rate-nearly-above-ath/)
--------------------------------
-16390543482021-12-09
-I want to accept BTC for payment for my business, giving customers 30 percent discount if they do. 
-
-Is there a way in the UK for customers to easily download an app, easily covert fiat to BTC and then use the LN to send it quickly and cheaply to me?
-
-I understand something like Strike could do this but its not available in the UK as far as I'm aware.  Is there another good alternative?
--------------------------------
-16390535532021-12-09
-Finally prepared to get it and store my crypto in private and secure manner! Maybe someone has a discount or promo code for it? Thanks in advance
--------------------------------
-16390534802021-12-09
-Is there a profitability calculator of time and machine mining versus buying and holding Bitcoin?
--------------------------------
-16390527482021-12-09
-Cathy Wood -CEO of walls st. Juggernaut - Ark Investments mentioned on CNBC this morning that if institutions should dive into bitcoin with as little as 5% of their buying power.bitcoins price could move to $500,000 
-Something to think about.
--------------------------------
-16390512282021-12-09
-So I discovered an old paper wallet that I had 5 coin stored on, back when btc was worth a few dollars each. I put them in the erstwhile safe keeping of the ruxum exchange which quietly went tits up without a single email to me, and I lost my 4.85ish btc to the guy who owned it (Chad Pankewich?)
-
-It might have been worth all of 15 bucks when this all happened. But it was my 15 bucks, and if I had it now, well, I could ay off my house and buy another, for instance.
-
-Wtf can I do?
--------------------------------
-16390494112021-12-09
-Reason Crack is a strong and powerful digital audio tool. With this D.A.W, you can create as well as edit any kind of audio file. Moreover, the program is specially designed for ease of use and best performance. iPhone 6 screen cracked for no Reasonpermits
--------------------------------
-16390486922021-12-09
-Interested to peoples thoughts
--------------------------------
-16390482532021-12-09
-Ive been in btc for a while bought a 3k and all the way through. But now is it time for btc to be seen as (how many btc supporters said) a store of your cash like property. Seeking massiveXs on your money might be gone. Maybe the new dawn of small gains off holding an asset are coming.
--------------------------------
-16390479302021-12-09
-Key Points
-Bitcoin offers one of the best risk/reward profiles out there.
-Leading U.S. tech stocks are arguably still overvalued.
-Blue-chip stocks that have already sold off may be the best option out there.
-In just a few short weeks, the U.S. stock market and the global crypto market have suffered sizable sell-offs as investors grappled with slowing growth, valuation concerns, a new COVID-19 variant, inflation, and other headwinds.
-
-Industry watchers that have patiently waited for prices to come down are in luck. But even fully invested folks may be wondering if it's best to invest in crypto or stocks in 2022 and beyond. Here's a breakdown of both markets and the best buys in each.
-
-A good time to buy "blue-chip" cryptos like Bitcoin
-Fear of missing out (FOMO) is a dangerous emotion that can pressure us to chase skyrocketing valuations and cloud our judgment. If you've felt like you've missed out on Bitcoin (CRYPTO:BTC) and Ethereum (CRYPTO:ETH), you're not alone.
-
-Just like stocks, investing in cryptocurrency has its risks. And picking specific cryptos, especially smaller altcoins, can be feast or famine. Solana (CRYPTO:SOL) has captured investors' imaginations for its over-12-fold return so far in 2021. But for every Solana-like success story, there are dozens, if not hundreds, of failures.
-
-If you're new or unfamiliar with crypto, simply going with the industry leaders is probably the best way to expose yourself to an attractive risk/reward profile. Bitcoin has the reputation of being complicated, risky, and has long been accused of being a bubble. But at its core, its investment thesis is beautifully simple.
-
-Bitcoin has a market cap of $925 billion. It sounds like a lot until you realize what its value could grow to become over time. Bitcoin is decentralized, meaning its network is supported by thousands of independent nodes. Unlike fiat currencies, it isn't controlled by any single sovereign nation or tied to one economy. Bitcoin has never suffered a major hack, and is probably one of the safest, most liquid, and most tradeable stores of value that exists on the planet.
-
-In short, the leading cryptocurrency has the attributes that make it an ideal currency in countries that lack a stable method of payment. It is a vessel for wealth for folks in developing and developed economies. It is also arguably a better inflation hedge than gold. Add it all up, and bitcoin has the potential to be worth more than any single company -- and could one day be worth more than the world's total gold supply (which is valued at roughly $10 trillion). And since it has a fixed supply of 21 million coins, about 19 million of which are already in circulation, bitcoin prices won't have to fight inflation effects.
-
-Few investment opportunities offer a feasible long-term gain of 1,000%. Bitcoin is one of them. And considering it's finally back down to the low $50,000 range, it could be time for investors to start a small position and dollar-cost average into bitcoin.
-
-Getting selective in the stock market
-A lot of growth companies have seen their share prices downright annihilated in recent months. So when investors glance at an index like the S&amp;P 500 or the Nasdaq-100 and notice both are still up big for the year, they may scratch their heads. The reasoning is because these indexes are market-cap weighted, meaning the large companies contribute the bulk of gains and losses. And this year, the largest companies are all doing quite well.
-
-For example, the 10 largest stocks in the S&amp;P 500 are up an average of 50% year-to-date, and they make up nearly one-third of the index.
-
-As a group, Apple (NASDAQ:AAPL) Microsoft, Alphabet, Amazon, Tesla, Meta Platforms, and Nvidia are crushing the market this year. Collectively, they make up -- wait for it -- over 60% of the Nasdaq 100 index. This is all to say that until these companies suffer major declines, stock indexes can only go down so much.
-
-Unlike the crypto market, where buying the largest names seems like the best all-around option, you could argue that the opposite is true in the U.S. stock market. Companies like Apple have hinted at declining demand for new iPhones, supply chain challenges, and slowing growth. And yet, investors have flocked to its stock as a place of safety amid market volatility, ignoring cracks in the company itself. Therefore, blue-chip companies like Walt Disney (NYSE:DIS) or PayPal (NASDAQ:PYPL) that are down over 35% from their highs (but offer plenty of long-term upside) seem like better all-around buys.
-
-Combining safety, value, and growth
-To answer the general question of whether it's better to take advantage of the crypto crash or the stock market sell-off, I would actually argue the crypto crash is a better buy -- Bitcoin and Ethereum are down a lot from their highs but they have so much growth ahead. However, if the question is whether it's better to buy crypto or certain blue-chip stocks, I would say blue-chip stocks that have already sold off are going to make more sense for most investors.
-
-We discussed Disney and PayPal, but there is actually a long list of strong industry-leading companies that are down 20% or more from their highs. From dividend and value stocks like Lockheed Martin to downtrodden leaders in attractive industries like cybersecurity or the gig economy, the market is ripe with buying opportunities outside of the largest tech stocks. 
-
-As with all investment decisions, it's important to select the companies or cryptos that best fit your risk tolerance so you're eligible for the right amount of reward for the amount of risk you are comfortable accepting.
--------------------------------
-16390472392021-12-09
-[removed]
--------------------------------
-16390450702021-12-09
-As I learn about bitcoin I wanted to post some thoughts and ask some questions and tie that to what I am taught in class and hear feedback.
+The presence of an elective resource like cryptocurrency can combat the endeavors of a government to preserve its possess centrally overseen cash or to control open resources in times of financial troubles. The foremost critical refinement is that they are more secure for citizens to work with and can be utilized for exchanges like buying gold. One of the numerous reasons to go after cryptocurrency is that it dispenses with the middleman when it comes to exchanges  typically a gigantic advantage for financial specialists.
 
 &amp;#x200B;
 
-First of all Bitcoin is able to transfer globally at an incredible speed which is very useful and seems to make companies such as Square and PayPal unnecessary. But  I will argue that however PayPal offers protection for fraudulent payments or scams.
+I look for coins that have real-life use cases. One such coin is #BUY from u/buying_com. They are disrupting billion dollar ecomm business.
 
-Second there is no central authority so it is decentralized. What I am taught in macroeconomics is that a decentralized currency is not necessarily good. In our current world of flexible exchange rate our central banks are able to conduct monetary policy which is necessary during booms or contractions. 
+&amp;#x200B;
 
-A decentralized currency removes this power from the central bank.  Also it would limit fiscal policy since governments don't have unlimited currency . So the covid relief bill or banking bailouts would be impossible. 
-
-This makes me think that if our economy ever falls in a bad recession that we have no central authority with the tools to be able to fix that. 
-
-Thirdly bitcoin claims to be resistant to  high inflation. So I imagine a world where there is only bitcoin.  So we assume that all bitcoin is mined so almost 21 million and everything is priced in bitcoin and you can't print bitcoin. So since the supply is constrained inflation is not a problem. But in class I am taught that the supply of money no longer affect inflation.  Essentially quantity theory is no longer considered valid.
-
-These are some of my thoughts I was wondering if they could be cleared up by the community!
+Cryptocurrencies are trustless. Until bitcoin came into presence, any kind of cash required a central specialist you had to believe in arrange to utilize it. This incomparable specialist in all circumstances is the elemental imperfection contributing to the currencys downfall. Each parcel of the arrange approves what the other pieces claim without anyone having to believe. On the off chance that you make a bitcoin exchange, all hubs must get the exchange and confirm whether the marks are redressed or not. When the marks are not appropriate, the contract gets rejected. It is one of the positive impacts of bitcoin.
 -------------------------------
-16390437602021-12-09
-No kidding, I am really losing my mind! Money isnt plucked on trees! Why do I keep losing my hard-earned money? Is this crypto thing real at all? Isnt it just another scam? Or am I just so bad at making decisions? I really thought everyone was supposed to be winners in this crypto world but it is obviously deeper than I thought, I must be doing something wrong! So, I just lost a good value of ETH!
+16391439332021-12-10
+***Bottom Line Up Front: Can I add other apps outside of my Bitcoin Node software (i.e. Umbrel) on my Raspberry Pi?***
 
-All the while I was very optimistic and hoped for the best, I was going to reap a windfall I thought. So, I bought when I thought it was low enough to buy. Unfortunately for me, the price dump continued, it was crazy! ETH really dealt with me. I sold-out out of frustration and just days later, the price started rising! Wow!
+I have been running my own Bitcoin node for a little while now using the Umbrel platform on a 8GB Raspberryi Pi with a 1 TB Solid State Drive (SSD). So far, zero issues and I am very happy.
 
-Well, if you have been like me, there is hope and you can still make profit/returns. There are a few tricks I learnt from bad experiences like the one I just shared that have worked. For instance, moving forward, never buy when the price is pumping, and remember to sell when the price is dropping, or the project is collapsing.
+However, I also know that I am definitely not using the full capabilities of the Raspberryi Pi itself. Is there any way that I can install other apps besides Umbrel on the Raspberry Pi?
 
-Also, instead of flocking to invest in those top projects with the crowd, like BTC and ETH, pay attention to new projects on the potential chain, like AVAX, Solana and Arbitrum. These are all potentially booming chains where you can trade on AVAX wallet, Solana launchpad and Arbswap respectively.
+To be clear, I know that I can I install apps WITHIN the Umbrel platform. I am talking about adding apps onto the Raspberryi Pi OUTSIDE of the Umbrel platform. In other words, if I cannot add apps onto the Raspberryi Pi OUTSIDE of the Umbrel platform, then it seems like all I can do on the Raspberry Pi is run the Umbrel software and nothing else.
 
-These are some sharing from my crypto experience, hope you all enjoy it!
+Please let me know your thoughts.
 -------------------------------
-16390405172021-12-09
+16391431002021-12-10
+https://www.bls.gov/news.release/cpi.nr0.htm
 
+&gt; *The all items index rose 6.8 percent for the 12 months ending October, the largest 12-month increase since the period ending **June 1982**.*
 -------------------------------
-16390403802021-12-09
-Im looking to use [coinb.in](https://coinb.in) to sign a multisig but I dont want to send my private key online. I see people talking about using [coinb.in](https://coinb.in) offline, and you can blatantly download it on the site, but how am I supposed to use it? It downloads a zip file, and if I change it to .htm or .html like many people say to do, the webpage it brings me to is corrupted. (random numbers, letter, aswell as missing charachters everywhere.) What am I missing? Any help is greatly appreciated.
+16391421032021-12-10
+How accurate is this?
 -------------------------------
-16390378052021-12-09
-Hi there.
-
-Me and my wife bought a brand-new apartments in Dubai Damac Hills in June (Kiara tower, overlooking on golf course) to live in there for 1,1m aed by installments, but sooner we understood that we had to put more money into our new business. We decided to sell our apartments to other person and receive some money back.
-
-So now we are looking for a buyer, who is interested in buying our apartments with 10% discount + 4% DLD discount (for you we will sell the apartments for 1.000.000 aed only).
-
-Advantages:
-
-1. Huge 1BR (812 sq.ft.);
-2. Elite region Damac Hills with golf-course view;
-3. Huge discount (we bough: 1,1 million+4% dld; we sell: 1 million all fees included);
-4. Handover has not been yet received - you will be the first owner of this apartments;
-5. Handover is ready to be received by you - brand-new apartments ready to move in;
-6. Apartments are fully furnished and ready to move in;
-7. Schools, parks, medical, BBQ - all here in Damac Hills;
-8. Pools, Spa, GYM - all here inside your building;
-9. And even 3 years installments are included!
-10. We will accept BITCOIN :)))
-
-If you are interested - contact us (we are not agents) and we will arrange your visit.
-
-Thank you.
+16391419722021-12-10
+I feel people are going to say HODL. Forget about bitcoin for three years, close Reddit and we will see you back in 2024
 -------------------------------
-16390360752021-12-09
-yadavrachit24/blockchain-explained-under-167-words-7ec73d5eb39
-
-Yadavrachit24 username for medium
--------------------------------
-16390337052021-12-09
+16391417792021-12-10
 [removed]
 -------------------------------
-16390313492021-12-09
+16391410752021-12-10
+I have my coins on an exchange as I tend to swap them about in parts. So do my peer group. But if we all (Reddit included) removed them from the exchanges then it would be a stronger Hold signal and the price would go up?
+
+As I'm trading way less with BTC now and holding more, I have already moved mine off into a private wallet.
+-------------------------------
+16391398782021-12-10
 [removed]
 -------------------------------
-16390308072021-12-09
-"The problem is we treat crypto assets differently from all other assets.The answer is just recognize of what they are. Crypto is an asset represents some underlying activity; Could be a network, could be an application.They have a value that people are willing to buy and sell at. Let them in. That would be my message: Let them in!"-Mr Brook (US Senator)
+16391394892021-12-10
+I  am currently working on a research project on the potential development  of the Distributed Ledger Technology (DLT) space conducted as part of my Master's Dissertation.
+
+The goal of [this survey](https://ucplbusiness.co1.qualtrics.com/jfe/form/SV_2tJUrLZipXadUWi) is gathering data identifying drivers for DLT adaption.
+
+Support  of the community would push my efforts forward immensely. So I would be  thankful if you help me, hopefully, bringing back some good news.
+
+[Get to the survey here.](https://ucplbusiness.co1.qualtrics.com/jfe/form/SV_2tJUrLZipXadUWi)
 -------------------------------
-16390303982021-12-09
-The lightning network is a second-layer solution on top of the Bitcoin blockchain that enables quick, cheap and scalable Bitcoin payments.
-
-Here is the place to discuss and learn more about lightning!
-
-Ask your questions about lightning
-
-Provide reviews, feedback, comparisons of LN apps, services, websites etc
-
-Learn about new LN features, development, apps
-
-Link to good quality resources (articles, wikis etc)
-
-Resources:
-
-* Here is an awesome list of resources compiled by Jameson Lopp: https://www.lopp.net/lightning-information.html
-
-* Want to test out your lightning fire power? tip the Bitcoin devs! https://bitcoindevlist.com/
-
-* Previous threads: [Search](https://www.reddit.com/r/Bitcoin/search?q=Lightning+Thursday&amp;restrict_sr=on&amp;include_over_18=on&amp;sort=new&amp;t=all)
-
-* Lnbook getting closer towards being finished and can already be seen at: https://github.com/lnbook/lnbook
-
-* Lightning Dedicated YouTube Channel: https://youtube.com/renepickhardt
-
-* Also there is the playlist by chaincode labs: https://youtube.com/playlist?list=PLpLH33TRghT17_U3as2P3vHfAGL8pSOOY
-
-* Lightning stores: https://www.lightningnetworkstores.com/
-
-* Learn more and talk about lightning right here in r/Bitcoin, r/bitcoinbeginners, r/thelightningnetwork, and [the r/Bitcoin chat](https://discord.gg/qE3rWBRNqh)
--------------------------------
-16390300832021-12-09
-Buy/Sell/Exchange your Bitcoin and other Crypto.
-
-https://searchfor.cc/recommend/?q=btc&amp;u=215975224
--------------------------------
-16390296082021-12-09
-Michael Saylor said the following at Bitcoin Miami 2021 and I'm wondering what he meant by it: 
-
-"I looked at the annual report of Google, and Google puts about 170-180 billion dollars of energy into their business to create 1.8 trillion dollars of an asset.  Bitcoin puts 4 billion of energy and capital investment to create an 800 billion dollar asset."
-
-What exactly does Saylor mean by this?  Is he referring to a certain ratio (e.g., P/E or EPS, etc.)? Where could I find these numbers?
-
-Any info is helpful.  Thanks!
--------------------------------
-16390287892021-12-09
-Here's a rather OCD complete path for upgrading and using [BTC-Taproot](
-https://blog.trezor.io/trezor-suite-and-firmware-updates-december-2021-d1e74c3ea283#f1bc
-) on Trezor.  I'll be upgrading a Trezor-1 with FW v1.9.2.  I'll be loading the following on a Windows box:
-
-* TrezorCTL CLI v0.13.0 (github: master-branch commit 86b02c6)
-* Trezor-1 FW v1.10.4
-* Trezor Suite v21.12.2
-
-***
-
-### 0. TLDR;
-
-1. Install Latest FW and Latest Suite
-2. Enable Taproot account in Suite
-3. Send BTC from r/CashApp to your Taproot address
-
-### I. TrezorCTL CLI v0.13.0 (github: master commit 86b02c6)
-
-Launch a shell and plug in your Trezor
-
-1. Clone git repo: `git clone https://github.com/trezor/trezor-firmware.git`
-2. Move to python dir: `cd trezor-firmware\python`
-3. Make a virtual env: `python -m venv ..\pyenv`
-4. Activate environment: `..\pyenv\Scripts\activate.bat`
-5. Upgrade PIP: `python -m pip install --upgrade pip wheel setuptools`
-6. Install TrezorCTL: `python -m pip install -e .[full]`
-7. Verify version: `trezorctl version`
-8. View Trezor-1 info: `trezorctl get-features`
-
-You should see TrezorCTL report version `0.13.0` as well as the info on your Trezor device
-
-### II. Trezor-1 FW v1.10.4
-
-I'll be doing a fingerprint verification on this, for no other reason but to demonstrate it.  Since Windows lacks good DD or Tail utilities I'll be using the unix tools in the `usr\bin` directory of the official Windows GIT install.  Assuming you are still in your python venv:
-
-1. Move to temp directory for downloads: `pushd %TEMP%`
-2. Download release doc: `curl -O https://data.trezor.io/firmware/1/releases.json`
-3. View first 15 lines for URL and fingerprint: `head -n 15 releases.json`
-4. Download firmware bin from URL specified: `curl -O https://data.trezor.io/firmware/1/trezor-1.10.4.bin`
-5. Get the fingerprint from firmware: `tail -c +257 trezor-1.10.4.bin | sha256sum`
-6. Verify that data from \#5 matches data from \#3
-7. [Put your Trezor in bootloader mode](
-https://wiki.trezor.io/Bootloader
-)
-8. Test the firmware load: `trezorctl firmware update --filename trezor-1.10.4.bin --dry-run`
-9. If it succeeds, flash it: `trezorctl firmware update --filename trezor-1.10.4.bin`
-10. Confirm on device then unplug / replug (maybe twice) when done
-11. Confirm device is on 1.10.4: `trezorctl get-features | findstr version`
-12. Verify Taproot feature: `trezorctl btc get-address --coin Testnet --address "m/86'/1'/0'/0/0" --script-type tr`
-
-Note: This assumes the Trezor-1.  The Trezor-T requires different offsets.
-
-### III. Trezor Suite v21.12.2
-
-I did check that this all works at `suite.trezor.io/web`, but I'll go through the full suite download verification and install.  This assumes you are still in the `%TEMP%` directory, or wherever you want to house scratch files:
-
-1. Download Trezor Suite: `curl -O https://suite.trezor.io/web/static/desktop/Trezor-Suite-21.12.2-win-x64.exe`
-2. Download Trezor Suite Sig: `curl -O https://suite.trezor.io/web/static/desktop/Trezor-Suite-21.12.2-win-x64.exe.asc`
-3. Download Trezor Sig Keys: `curl -O https://trezor.io/security/satoshilabs-2021-signing-key.asc`
-4. Import the keys to GPG: `gpg --import satoshilabs-2021-signing-key.asc`
-5. Trust the key: `gpg --lsign-key "SatoshiLabs 2021 Signing Key"`
-6. Verify Trezor Suite: `gpg --verify Trezor-Suite-21.12.2-win-x64.exe.asc`
-7. If sig check fails, don't install it, otherwise continue.
-8. Get the Authenticode signature thumbprint: `powershell Get-AuthenticodeSignature Trezor-Suite-21.12.2-win-x64.exe`
-9. Verify that `SignerCertificate` equals `52492703A3DA7068869B01ABEA0EBF2B6BE607EA`
-10. Launch the installer: `start Trezor-Suite-21.12.2-win-x64.exe`
-11. Run installer, and launch Suite
-12. Under `Dashboard` select `Enable more coins` then enable `Bitcoin Testnet`
-14. Select `Accounts` on the top most navbar, then select `+` (plus sign) by `My accounts`
-16. Select `Bitcoin Testnet` then pick `Taproot` from the dropdown, then `Add account`
-17. Click `Receive` and verify the address offered matches the one in step `II.12`
-
-***
-
-Now you can send / receive Testnet coins to your Taproot account.  Of course you can enable it for mainnet as well, but I, personally, always test new features on testnet first.  The easiest way to get a TXN to your Testnet Taproot address is through a [Taproot Testnet Faucet](
-https://testnet-faucet.mempool.co/
-) ^(not my site).  The simple way to get a TXN on your Mainnet Taproot address is through r/CashApp.  Here's a TXN I did from r/CashApp to my [Taproot Tipjar](
-https://mempool.space/address/bc1paa73vqepaf5ccmhlvcjr3lxea9nueks865q3urcn9alcu2hckp8st0ukp5
-)
-
-&amp;nbsp;&amp;nbsp;***ENJOY!***&amp;nbsp;&amp;nbsp;
--------------------------------
-16390280322021-12-09
+16391370422021-12-10
 [removed]
 -------------------------------
-16390273312021-12-09
+16391368772021-12-10
 [removed]
 -------------------------------
-16390272032021-12-09
-So I made money online and one option was to cash out with a 5% fee OR cash out in Bitcoin... So I chose Bitcoin... Problem is I have no idea what I'm doing...
+16391357562021-12-10
 
-.... what do I do now? How do I learn more about bitcoin and follow the right information with so much false stuff out there... and I don't even know the first thing about this... should I wait for bitcoin to go up and transfer it to a more stable coin until I learn more? (It's down right now so I really don't want to take that loss) Is bitcoin about to go up or down? Is it best to wait and see? (from what there is to know anyway) ...where do I start?
 -------------------------------
-16390268032021-12-09
-Are there still big catalysts that can drive the price up or is bitcoin big enough that most news won't move it much?
+16391342272021-12-10
+I was casually lurking on twitter when i came across aantonop tweeting that mastering lightning network is currently #1 new release in Business Entrepreneurship books on Amazon
 -------------------------------
-16390265682021-12-09
+16391329112021-12-10
+i recently imported my private keys to electrum from bitcoin core, the problem is that it says that i have 0 btc in my wallet on electrum when i just 3 days ago bought bitcoins to that adress in bitcoin core. i recieved new adresses for the private keys but cant find any transaction on blockchain, i also tried my old adresses but nothing was found. this is strange because i have checked before with the old adress and i saw the transaction. please help. (im really new to bitcoin)
+-------------------------------
+16391326882021-12-10
+So in what bizaaro world are people living in that they think it is a good idea to spend tens, even hundreds of thousands on what is essentially a fucking picture?  And for what?  I question this and I have to ask myself am I going insane or is the world going insane?  People buying badly drawn pictures of apes for thousands of dollars, lol?  In what world is that ever a good financial decision?
+
+Today I looked at a 'bullish bull' nft picture that is literally a cartoon bull that Gary Vee drew with a black and white marker on an A4 piece of paper, and then it got sold for $70,000usd LMAO? Like what am I missing?  How is any of this sanity?
+
+"Yeah I had enough money to buy a house but check this out, instead I bought this picture of a cartoon bull/cryptopunks avatar/stupid ape/gorilla wearing clothes and a hat.  Check out my picture."
+
+Like what am I missing here?  I look at this NFT shit and I just think, am i going fucking insane?
+-------------------------------
+16391319952021-12-10
+[removed]
+-------------------------------
+16391317352021-12-10
+[https://medium.com/@wsbhua/the-bulls-stalled-and-the-bears-began-to-exert-their-strength-a-second-time-897c794cf2b8](https://medium.com/@wsbhua/the-bulls-stalled-and-the-bears-began-to-exert-their-strength-a-second-time-897c794cf2b8)
+-------------------------------
+16391316602021-12-10
+Hey everyone Im hopeless  i need 3k dollars Pay my debts, or I will be kicked out on the street. I have been in a good social condition and have been since the COVID-19 , and I am suffering financially and the situation is getting worse every day, please, who read this, help me
+
+My metamask wallet 
+
+0x15711b4987CEbaB5649615adca8B69c3077041Da
+-------------------------------
+16391313662021-12-10
+[removed]
+-------------------------------
+16391295432021-12-10
+I use LunarCrush to track social insights for cryptocurrencies. Check it out!
+
+https://lnr.app/s/pY6VXx
+-------------------------------
+16391274392021-12-10
+&gt;According to the reports, the money belonged to a 25-year-old woman from Chicago, who was neither arrested nor charged with a crime after her luggage was seized by police. So why did the police take the money? Well, according to Texas law, police dont need a reason to take your property so long as they believe it either has been part of a crime or they believe it will be involved in a crime. That grants law enforcement sweeping powers to basically seize any property they believe is suspicious, even if they dont have much evidence.  The fact that the K9 identified the bag is, in and of itself, not evidence; [90 percent of cash in circulation](https://www.dickinson.edu/news/article/3193/dickinson_college_chemistry_class_explores_the_presence_of_drug_residue_on_us_currency) has been shown to have trace amounts of cocaine. 
+
+[https://www.dmagazine.com/health-fitness/2021/12/dallas-police-steal-100000-from-woman-at-love-field/](https://www.dmagazine.com/health-fitness/2021/12/dallas-police-steal-100000-from-woman-at-love-field/)
+
+We know what fixes this, don't we?
+-------------------------------
+16391274082021-12-10
+Around 10-11 years ago, when BTC was still a novelty, i mined it with my pc (those where the days) for a few weeks. Used to have around 12 of em if i recall correctly. Total value at that time was under ten dollar. I lost interest and did not go to the effort to cash out. Don't recall where the PC went, thought it long lost. When the crypto hype really started kicking of around two years ago, i used to joke to friends how i unwittingly threw away a lot of money. 
+
+Until last week... when we found a few pc's from that era on my grandma's attic. It is very likely that my pc from back then is one of em. Of course... if this BTC is still on that pc... it would be more than worth it to go to great lenghts to recover it.
+
+Problem is, i do not know where to start. I have no idea what software i used for mining, if i used a wallet online or one on the pc... or maybe left it with the pool. Anyone willing to give me some tips on where to start? Most likely i left em in the pool... does that mean it is lost after these years?
+-------------------------------
+16391232632021-12-10
+
+-------------------------------
+16391230792021-12-10
+Everyone is like: Oh it's just a dip bro, buy the dip! Then we go up 1% and everyone says: "Ha, told you! Bull market is back." Then we go down with another 5% and everyone is like: Buy the dip!
+
+If you believe in the long term of Bitcoin, you should be fine. Personally, I do not think we're in a bear market, but the fact that no one considers it, does scare me.
+
+Especially altcoins can go down 50%, then another 50% and then 50% again, making people lose all their money, while they "buy the dip".
+
+**If** we do get in a bear market now, then it will be a great opportunity to buy cheap. I'm not trying to scare anyone, I'm not saying this is a bear market, but it could be that we don't get a blow-off top this time, no?
+-------------------------------
+16391230432021-12-10
+Counseling discussion thread to expose ourselves and offer moral support in these challenging times.
+
+(Always Hodl)
+-------------------------------
+16391224752021-12-10
+Why should I worry about him?
+-------------------------------
+16391219532021-12-10
+
+-------------------------------
+16391214942021-12-10
+Let's suppose you get into a car accident tomorrow and both you and your spouse are dead - have you done any steps to ensure the Bitcoin you hold can be accessed by your kids or loved ones? If yes, what did you do? I'd be curious to know.
+
+As far as I know, there doesn't seem to be a solution to this problem.
+
+Thanks.
+-------------------------------
+16391212932021-12-10
+It would be so boring if it bounces back from 42000, need to leave bears early
+-------------------------------
+16391211202021-12-10
+
+-------------------------------
+16391207732021-12-10
+In the last 24 hours Tether, the creator of USDT, has minted $1,500,000,000 worth of USDT out of thin air.
+
+Nowhere it is documented where the money which was just created comes from and where it actually went.
+
+Before 2019 Tether claimed 100% of its reserves would be backed by actual cash
+
+Suddenly in April of 2019 Tether claimed only 74% of Tether would be backed by "cash and cash equivalents"
+
+A pie chart (yes, this is how they want to proof their reserves) released by Tether in 2021 revealed that only 2,9% would be backed by cash
+
+How much of it is actually backed of the $1,500,000,000 they somehow created in less than 24 hours? You can probably guess
+-------------------------------
+16391202512021-12-10
+I'll repeat the thread title, "Is On-Chain analysis largely BS?".  
+
+
+The analysts are largely articulate and seemingly intelligent but that's not really pertinent if it's just describing the present with no forecasting validity.  
+
+
+I can describe the present as I'm in the present but so what?
+-------------------------------
+16391186682021-12-10
+I love Bitcoin but I just have to tune-out the daily YouTube videos from the same people who are enthusiastic about Bitcoin and have a video each day predicting what is going to happen in a few days..."to the Moon" "this is your last chance" etc.  
+
+
+When they turn out not to be accurate they say that it's just early and that they learned from their mistakes and to join their pay for channel that has more details.  
+
+
+Everyone insisted that Bitcoin would hit $100k this year even when it was the end of November. Now almost no one is saying that and some are saying maybe it will hit $100k in 2022, if ever...:)
+
+I don't think anything has changed and Bitcoin is still the good deal that it has always been but Technical Analysis really just seems to be navel gazing more than anything else. I'm not saying it's useless for a daily trader but I wouldn't argue if you said it.  
+
+
+Of course Cathie Woods is sure it will be $568k "someday" or by 2026. It's a lot easier to make predictions and not be held to them when all of your "predictions" are rosy but 4 or 5 years away. I actually like Cathie's general outlook but her fund (ARKK) really only did great in two years and one had mostly to do with Tesla and the other had a lot to do with Bitcoin.  
+
+
+Nothing that she "predicted" worked out this year. On the other end of the prediction spectrum is Michael Burry. He always predicts that the world is going to end and he was right a decade ago. Yesterday I predicted that my clock would read 12 noon at some point and I was right.
+-------------------------------
+16391174882021-12-10
+2 questions.
+
+1) Is anybody able to find the block or transaction id for MicroStrategy's most recent btc purchase?
+
+2) Who holds MicroStrategy's bitcoin?  Do you think they use casa or unchained capital?
+-------------------------------
+16391168392021-12-10
+[removed]
+-------------------------------
+16391163052021-12-10
+Sometimes I feel really weird because I explain bitcoin to someone and they instantly get it and are basically down to buy some and self custody it immediately. Like it took me **so fucking long** to wrap my head around all of this as far as the implications, energy consumption, the history, the way it functions and it often just feels super weird for me when I expect people to not get it or have questions and they're just like, no I get it, that sounds cool how do I get involved. These are people pretty close to me so I don't **think** that they're just saying they get it when they don't. Anyone else ever feel similarly?
+-------------------------------
+16391155122021-12-10
+ Join PokeMine Public Beta 2 to WIN $39800 worth of PokeMine [\#NFT](https://www.instagram.com/explore/tags/nft/) Rewards NOW!  
+ You only have 3 days left before this testing ends!  
+ 
+
+https://preview.redd.it/36bqx1n1mn481.jpg?width=680&amp;format=pjpg&amp;auto=webp&amp;s=2b15b7ec891e1019730bda375364fb2593c998cb
+-------------------------------
+16391148672021-12-10
+I'm curious if there is any data on how many merchant transactions are done vs how much BTC transactions are new buy-ins/investors, alt coin purchases etc..  I ask because I feel like one of the big hang-ups with BTC as a currency acceptance is its volatility.  How do people rationalize the concept that one day they can use BTC to purchase a coffee or a car but the next day the same item could be 10,15 or 20% more (or less) expensive.   The value of USD, PM commodities, stock markets fluctuate daily, but not with the same exchange rate volatility.
+-------------------------------
+16391147672021-12-10
+Please help me understand the risk and reward when it comes to mining. Let's assume I am mining BTC and it takes me 1 year to mine 1 BTC. the current value is \~50k. if BTC price were to change to 100k. Does that mean it'll take me twice as long to mine 1 BTC? (2 years?). Also, what if I were to cash out every day or whenever the mining task has been completed. Does that eliminate my risk? I just want to participate in the mining, not speculating. Please help me understand this concept. Be nice.
+-------------------------------
+16391128832021-12-10
 Please utilize this sticky thread for all general **Bitcoin** discussions! If you see posts on the front page or /r/Bitcoin/new which are better suited for this daily discussion thread, please help out by directing the OP to this thread instead. Thank you!
 
 If you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow.
 
 [Join us in the r/Bitcoin Chatroom!](https://discord.gg/K5H25KZHke)
 
-Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/rbjdpl/daily_discussion_december_08_2021/) for unanswered questions.
+Please check the [previous discussion thread](https://www.reddit.com/r/Bitcoin/comments/rcbeam/lightning_thursday_december_09_2021_explore_the/) for unanswered questions.
 -------------------------------
