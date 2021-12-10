@@ -109,7 +109,21 @@ IMPORTANT: YOU CANNOT RUN THE FILES INDEPENDENTLY. THEY MUST BE RUN FROM THE BAS
 
 IMPORTANT: YOU MUST RUN THE BASH SCRIPTS INSIDE THE BIN FOLDER
 
-IMPORTANT: BEFORE RUNNING ANY OF THESE SCRIPTS ENSURE THAT ALL LIBRARY DEPENDENCIES ARE MET, TENSORFLOW, KERAS, NUMPY, SKLEARN, ETC.
+**Dependencies**
+Make sure the following python libraries are installed on your machine before attempting to run any of the scripts:
+* requests
+* datetime
+* traceback
+* time
+* json
+* sys
+* pandas
+* torch
+* transformers
+* tqdm
+* simplejson.errors
+* tensorflow
+* numpy
 
 **Building the Dataset:**
 
