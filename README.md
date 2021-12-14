@@ -185,4 +185,4 @@ This is the training and test accuracy for the final model. The test accuracy os
 With the accuracy of the training data epochs and the slow rise of the test data accuracy, we believe that a better accuracy could be obtained with more training data.
 
 ## Copyright and License
-Copyright 2021 Samuel Chanow, Ryan Metz. Code released under [this LICENSE](LICENSE).
+Copyright (Pending) 2021 Samuel Chanow [this LICENSE](LICENSE).
